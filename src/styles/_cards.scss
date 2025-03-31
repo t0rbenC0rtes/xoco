@@ -1,0 +1,22 @@
+.img-wrapper {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100vw;
+}
+.portrait-img {
+	@media (max-width: 768px) {
+		display: none;
+	}
+}
+.img-wrapper img {
+	max-width: 100%;
+	height: auto;
+	max-height: 400px;	
+	font-style: italic;
+	background-repeat: no-repeat;
+	background-size: cover;
+	shape-margin: 0.75rem;
+	display: block;
+	object-fit: cover;
+}

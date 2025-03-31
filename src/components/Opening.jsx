@@ -6,7 +6,7 @@ const Opening = () => {
 			<div className="img-wrapper">
 				<img src="./image08.jpg" alt="" />
 			</div>
-			<div className="card-wrapper">
+			<div className="card-wrapper hours">
 				<h3>Opening hours</h3>
 				<p>Monday: 10:00-17:30</p>
 				<p>Tuesday: 10:00-17:30</p>

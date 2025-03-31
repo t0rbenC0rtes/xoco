@@ -3,9 +3,12 @@ import React from "react";
 const Xavier2 = () => {
 	return (
 		<div>
+			<div className="img-wrapper">
+				<img src="./image02.jpg" alt="" />
+			</div>
 			<div className="card-wrapper">
 				<h3>
-					Over Xavier Declercq, de ambachtsman achter onze smaken.
+					About Xavier Declercq, the artisan behind the taste.
 				</h3>
 				<p>
 					Xocolate is the creation of Xavier Declercq, an artisanal
@@ -16,9 +19,6 @@ const Xavier2 = () => {
 					& Millau in 2022 with the title “Discovery of the Year for
 					Belgium.”
 				</p>
-			</div>
-			<div className="img-wrapper">
-				<img src="./image02.jpg" alt="" />
 			</div>
 		</div>
 	);
