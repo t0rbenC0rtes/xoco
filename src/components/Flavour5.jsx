@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa";
 
 const Flavour5 = () => {
 	return (
@@ -14,6 +15,7 @@ const Flavour5 = () => {
 					employees, visitors, and colleagues, making every tasting
 					unforgettable.
 				</p>
+				<a href="https://www.facebook.com/XavierXocolate/">FOLLOW US<FaFacebook className="icon"/></a>
 			</div>
 		</div>
 	);

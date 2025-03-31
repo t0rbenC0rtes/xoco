@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaFacebook } from "react-icons/fa";
 
 const Press7 = () => {
 	return (
@@ -26,6 +27,10 @@ const Press7 = () => {
 					attention, as it gradually raises awareness about the
 					importance of sustainable and ethical food production.
 				</p>
+				<a href="https://www.facebook.com/XavierXocolate/">
+					READ MORE
+					<FaFacebook className="icon" />
+				</a>
 			</div>
 		</div>
 	);

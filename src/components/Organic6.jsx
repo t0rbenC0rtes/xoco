@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaArrowRight } from "react-icons/fa";
 
 const Organic6 = () => {
 	return (
@@ -27,6 +28,10 @@ const Organic6 = () => {
 					chocolate but also supports ethical and sustainable
 					practices throughout the entire supply chain.
 				</p>
+				<a href="https://www.tuv-nord.com/be/nl/certificatie/bio/">
+					MORE INFO
+					<FaArrowRight className="icon" />
+				</a>
 			</div>
 		</div>
 	);

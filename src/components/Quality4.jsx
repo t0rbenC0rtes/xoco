@@ -1,4 +1,5 @@
 import React from "react";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Quality4 = () => {
 	return (
@@ -15,6 +16,10 @@ const Quality4 = () => {
 					Trade Federation (BFTF). Questions about our chocolate or
 					our organic or fair trade production process?
 				</p>
+				<a href="mailto:xavier@xocolate.be">
+					CONTACT US
+					<MdOutlineEmail className="icon" />
+				</a>
 			</div>
 		</div>
 	);

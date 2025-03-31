@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaStar, FaGoogle } from "react-icons/fa";
 
 const Excellent3 = () => {
 	return (
@@ -18,6 +19,15 @@ const Excellent3 = () => {
 						institutions, universities, and museums that appreciate
 						both the quality and the ethics of our chocolaterie.
 					</p>
+					<a href="https://www.google.com/search?hl=en-BE&sca_esv=0160b8be554527dd&cs=0&output=search&q=XOCOLATE&ludocid=15309125074612785540&lsig=AB86z5Uyyg2Xpq8lb7OkQLTMz6S7&shndl=30&shem=lsde,vslcea&source=sh/x/loc/act/m1/1&kgs=9f7ece721d21e137">
+						GOOGLE REVIEWS
+						<FaStar />
+						<FaStar />
+						<FaStar />
+						<FaStar />
+						<FaStar />
+						<FaGoogle className="icon" />
+					</a>
 				</motion.div>
 			</div>
 		</div>

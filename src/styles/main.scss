@@ -5,15 +5,14 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box;	
 }
 
-body {
+body {	
 	display: flex;
 	flex-direction: column;
 	background-color: v.$white;
-	font-family: v.$inter;
-	overflow-x: hidden;
+	font-family: v.$inter;	
 	h1,
 	h3,
 	h4,
@@ -31,6 +30,25 @@ body {
 		font-size: 0.8125rem;
 		line-height: 23px;
 	}
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: fit-content;
+		padding: 0 20px;
+		text-decoration: none;
+		color: v.$black;
+		font-size: .75rem;
+		font-weight: 700;
+		letter-spacing: 2px;
+		line-height: 56px;
+		background-color: v.$true-white;		
+		border-radius: 32px;
+		margin-bottom: 20px;
+		.icon {
+			margin-left: 14px;			
+		}
+	}
 	.container {
 		display: flex;
 		flex-direction: column;
@@ -39,5 +57,6 @@ body {
 		width: 100%;
 		margin: 0 auto;
 		padding: 1rem;
+		overflow-x: clip;
 	}
 }

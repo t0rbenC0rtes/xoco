@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaFacebook } from "react-icons/fa";
 
 const Bio1 = () => {
 	return (
@@ -29,6 +30,7 @@ const Bio1 = () => {
 						world market price. We strive to create chocolate that
 						stimulates all the senses.
 					</p>
+					<a href="https://www.facebook.com/XavierXocolate/">FOLLOW US<FaFacebook className="icon"/></a>
 				</motion.div>
 			</div>
 		</div>

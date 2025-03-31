@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaArrowRight } from "react-icons/fa";
 
 const Discovery9 = () => {
 	return (
@@ -28,6 +29,10 @@ const Discovery9 = () => {
 					the Gault & Millau award confirms that we are on the right
 					path.
 				</p>
+				<a href="https://www.gaultmillau.be/en/chocolatiers/xocolate-bruxelles-schaerbeek">
+					READ FULL ARTICLE
+					<FaArrowRight className="icon" />
+				</a>
 			</div>
 		</div>
 	);

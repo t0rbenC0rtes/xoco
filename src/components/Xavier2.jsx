@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Xavier2 = () => {
 	return (
@@ -25,6 +26,10 @@ const Xavier2 = () => {
 					& Millau in 2022 with the title “Discovery of the Year for
 					Belgium.”
 				</p>
+				<a href="mailto:xavier@xocolate.be">
+					MEET XAVIER
+					<MdOutlineEmail className="icon" />
+				</a>
 			</div>
 		</div>
 	);
