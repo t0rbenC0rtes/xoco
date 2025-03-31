@@ -1,10 +1,18 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Opening = () => {
 	return (
 		<div>
 			<div className="img-wrapper">
-				<img src="./image08.jpg" alt="" />
+				<motion.div
+					initial={{ x: 50, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.2 }}
+					viewport={{ once: false }}
+				>
+					<img src="./image08.jpg" alt="" />
+				</motion.div>
 			</div>
 			<div className="card-wrapper hours">
 				<h3>Opening hours</h3>

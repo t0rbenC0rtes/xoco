@@ -1,10 +1,18 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Discovery9 = () => {
 	return (
 		<div>
 			<div className="img-wrapper">
-				<img src="./image07.jpg" alt="" />
+				<motion.div
+					initial={{ x: -50, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.2 }}
+					viewport={{ once: false }}
+				>
+					<img src="./image07.jpg" alt="" />
+				</motion.div>
 			</div>
 			<div className="card-wrapper">
 				<h3>Discovery of the year!</h3>
