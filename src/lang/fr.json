@@ -1,0 +1,63 @@
+{
+    "header": {
+      "title": "Bienvenue chez Xocolate, la chocolaterie artisanale à Bruxelles"
+    },
+    "bio": {
+      "title": "Biologique et équitable",
+      "text": "Xocolate produit du chocolat biologique avec une conscience claire. Grâce à notre engagement en faveur du commerce équitable, nos producteurs de cacao reçoivent plus du double du prix standard du marché mondial. Nous nous efforçons de créer un chocolat qui stimule tous les sens.",
+      "button": "SUIVEZ-NOUS"
+    },
+    "xavier": {
+      "title": "À propos de Xavier Declercq, l'artisan derrière nos saveurs",
+      "text": "Xocolate est la création de Xavier Declercq, chocolatier artisanal. Après 33 ans d'engagement dans la solidarité internationale, Xavier suit une autre passion : le chocolat. Ses fondations et son éthique restent cependant inchangées. L'engagement et l'innovation de Xavier ont été récompensés par Gault & Millau en 2022 avec le titre de 'Découverte de l'année pour la Belgique'.",
+      "button": "FAIRE CONNAISSANCE"
+    },
+    "excellent": {
+      "title": "Pralines excellentes",
+      "text": "Nos excellentes pralines sont largement reconnues. Grâce à leur goût raffiné, nos pralines sont choisies par de nombreuses institutions, universités et musées, qui apprécient à la fois la qualité et l’éthique de notre chocolaterie.",
+      "button": "AVIS GOOGLE"
+    },
+    "quality": {
+      "title": "Qualité supérieure à un prix équitable",
+      "text": "Xocolate veille à ce que le chocolat artisanal soit accessible à tous tout en soutenant le commerce équitable tout au long du processus de production. Nous sommes également membres de la Fédération belge du commerce équitable (BFTF). Des questions sur notre chocolat ou sur notre processus de production bio ou équitable ?",
+      "button": "CONTACTEZ-NOUS"
+    },
+    "flavour": {
+      "title": "Moins de sucre, plus de goût",
+      "text": "Nos pralines présentent une gamme de saveurs vaste et raffinée. Idéales pour séduire le regard et le palais de vos clients, collaborateurs, visiteurs et collègues, chaque dégustation devient inoubliable.",
+      "button": "SUIVEZ-NOUS"
+    },
+    "organic": {
+      "title": "Biologique",
+      "text": "Obtenir une certification bio n’est pas simple : c’est un processus rigoureux dans lequel les produits sont minutieusement évalués et approuvés pour répondre aux normes strictes de l’agriculture biologique. Il est essentiel de ne pas utiliser de pesticides chimiques ni d’engrais artificiels et de stimuler la biodiversité. Cette certification est très importante pour nous. Elle garantit non seulement la qualité supérieure de notre chocolat, mais soutient aussi les méthodes éthiques et durables dans toute la chaîne d’approvisionnement.",
+      "button": "PLUS D'INFOS"
+    },
+    "press": {
+      "title": "Dans la presse",
+      "text": "Xocolate a reçu une attention médiatique considérable ces dernières années. De nombreux articles de presse font l’éloge de l’approche innovante de Xavier Declercq dans le monde du chocolat. On y vante notamment notre savoir-faire artisanal, l’approvisionnement éthique de nos ingrédients, ainsi que notre engagement en faveur de la durabilité et du commerce équitable. Nous sommes ravis de toute cette attention, car elle contribue à sensibiliser davantage à l’importance d’une production alimentaire durable et éthique.",
+      "button": "LIRE PLUS"
+    },
+    "unique": {
+      "title": "Unique et équitable",
+      "text": "L’accent mis par Xocolate sur le commerce équitable et les ingrédients biologiques contribue à un avenir plus durable pour l’industrie du chocolat. Vivez l’expérience unique de notre chocolat. Sentez la différence d’un chocolat qui a une histoire à raconter. L’histoire du commerce équitable, celle d’un monde meilleur.",
+      "button": "NOUS TROUVER"
+    },
+    "discovery": {
+      "title": "Découverte de l’année !",
+      "text": "Nous sommes très fiers que Xocolate ait été nommé 'Découverte de l’année pour la Belgique' par Gault & Millau — une belle reconnaissance de notre engagement pour la qualité et la durabilité. Ce qui distingue Xocolate, c’est notre engagement inébranlable envers le commerce équitable : nous payons les producteurs de cacao en Haïti deux fois plus que la norme du marché, même en comparaison avec d’autres marques 'équitables'. Cet engagement souligne notre mission de rendre le secteur du chocolat plus équitable et durable, et cette distinction de Gault & Millau confirme que nous sommes sur la bonne voie.",
+      "button": "LIRE L'ARTICLE"
+    },
+    "opening": {
+      "title": "Heures d’ouverture",
+      "text": {
+        "monday": "Lundi : 10:00 - 17:30",
+        "tuesday": "Mardi : 10:00 - 17:30",
+        "wednesday": "Mercredi : 10:00 - 17:30",
+        "thursday": "Jeudi : 10:00 - 17:30",
+        "friday": "Vendredi : 10:00 - 17:30",
+        "saturday": "Samedi : 10:00 - 17:30",
+        "sunday": "Dimanche : Fermé"
+      }
+    }
+  }
+  
