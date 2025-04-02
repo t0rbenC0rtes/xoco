@@ -10,7 +10,10 @@ const Flavour5 = ({ translations }) => {
 			<div className="card-wrapper">
 				<h3>{translations["flavour"]?.title}</h3>
 				<p>{translations["flavour"]?.text}</p>
-				<a href="https://www.facebook.com/XavierXocolate/">
+				<a
+					href="https://www.facebook.com/XavierXocolate/"
+					target="_blank"
+				>
 					{translations["flavour"]?.button}
 					<FaFacebook className="icon" />
 				</a>

@@ -12,34 +12,36 @@ import Discovery9 from "./components/Discovery9";
 import Opening from "./components/Opening";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Socials from "./components/Socials";
 
 const App = () => {
-  const [language, setLanguage] = useState("en");
-  const [translations, setTranslations] = useState({});
+	const [language, setLanguage] = useState("en");
+	const [translations, setTranslations] = useState({});
 
-  useEffect(() => {
-    import(`./lang/${language}.json`).then((module) =>
-      setTranslations(module.default)
-    );
-  }, [language]);
+	useEffect(() => {
+		import(`./lang/${language}.json`).then((module) =>
+			setTranslations(module.default)
+		);
+	}, [language]);
 
-  return (
-    <div className="container">
-      <Navbar setLanguage={setLanguage} />
-      <Header translations={translations} />
-      <Bio1 translations={translations} />
-      <Xavier2 translations={translations} />
-      <Excellent3 translations={translations} />
-      <Quality4 translations={translations} />
-      <Flavour5 translations={translations} />
-      <Organic6 translations={translations} />
-      <Press7 translations={translations} />
-      <Unique8 translations={translations} />
-      <Discovery9 translations={translations} />
-      <Opening translations={translations} />
-      <Footer translations={translations} />
-    </div>
-  );
+	return (
+		<div className="container">
+			<Navbar setLanguage={setLanguage} />
+			<Header translations={translations} />
+			<Bio1 translations={translations} />
+			<Xavier2 translations={translations} />
+			<Excellent3 translations={translations} />
+			<Quality4 translations={translations} />
+			<Flavour5 translations={translations} />
+			<Organic6 translations={translations} />
+			<Press7 translations={translations} />
+			<Unique8 translations={translations} />
+			<Discovery9 translations={translations} />
+			<Opening translations={translations} />
+			<Footer translations={translations} />
+			<Socials />
+		</div>
+	);
 };
 
 export default App;

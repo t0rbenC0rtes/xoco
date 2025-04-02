@@ -18,7 +18,10 @@ const Discovery9 = ({ translations }) => {
 			<div className="card-wrapper">
 				<h3>{translations["discovery"]?.title}</h3>
 				<p>{translations["discovery"]?.text}</p>
-				<a href="https://www.gaultmillau.be/en/chocolatiers/xocolate-bruxelles-schaerbeek">
+				<a
+					href="https://www.gaultmillau.be/en/chocolatiers/xocolate-bruxelles-schaerbeek"
+					target="_blank"
+				>
 					{translations["discovery"]?.button}
 					<FaArrowRight className="icon" />
 				</a>

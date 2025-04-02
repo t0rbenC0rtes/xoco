@@ -18,7 +18,10 @@ const Press7 = ({ translations }) => {
 			<div className="card-wrapper">
 				<h3>{translations["press"]?.title}</h3>
 				<p>{translations["press"]?.text}</p>
-				<a href="https://www.facebook.com/XavierXocolate/">
+				<a
+					href="https://www.facebook.com/XavierXocolate/"
+					target="_blank"
+				>
 					{translations["press"]?.button}
 					<FaFacebook className="icon" />
 				</a>

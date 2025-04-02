@@ -18,7 +18,10 @@ const Organic6 = ({ translations }) => {
 			<div className="card-wrapper">
 				<h3>{translations["organic"]?.title}</h3>
 				<p>{translations["organic"]?.text}</p>
-				<a href="https://www.tuv-nord.com/be/nl/certificatie/bio/">
+				<a
+					href="https://www.tuv-nord.com/be/nl/certificatie/bio/"
+					target="_blank"
+				>
 					{translations["organic"]?.button}
 					<FaArrowRight className="icon" />
 				</a>

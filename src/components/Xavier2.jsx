@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { MdOutlineEmail } from "react-icons/md";
 
-const Xavier2 = ({translations}) => {
+const Xavier2 = ({ translations }) => {
 	return (
 		<div>
 			<div className="img-wrapper">
@@ -17,11 +17,9 @@ const Xavier2 = ({translations}) => {
 			</div>
 			<div className="card-wrapper">
 				<h3>{translations["xavier"]?.title}</h3>
-				<p>
-				{translations["xavier"]?.text}
-				</p>
-				<a href="mailto:xavier@xocolate.be">
-				{translations["xavier"]?.button}
+				<p>{translations["xavier"]?.text}</p>
+				<a href="mailto:xavier@xocolate.be" target="_blank">
+					{translations["xavier"]?.button}
 					<MdOutlineEmail className="icon" />
 				</a>
 			</div>
