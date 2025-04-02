@@ -35,6 +35,10 @@ body {
 		font-family: v.$instrument;
 		font-size: 0.8125rem;
 		line-height: 23px;
+		@media screen and (min-width: 1024px) {
+			font-size: 1.125rem;
+			line-height: 32px;			
+		}
 	}
 	a {
 		display: flex;
@@ -71,6 +75,6 @@ body {
 		// }
 		// @media screen and (min-width: 2560px) {
 		// 	padding: 0 20%;
-		// }
+		// moved this to card-wrapper}
 	}
 }
