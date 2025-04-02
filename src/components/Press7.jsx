@@ -4,18 +4,8 @@ import { FaFacebook } from "react-icons/fa";
 
 const Press7 = ({ translations }) => {
 	return (
-		<div>
-			<div className="img-wrapper">
-				<motion.div
-					initial={{ x: 50, opacity: 0 }}
-					whileInView={{ x: 0, opacity: 1 }}
-					transition={{ duration: 0.8, delay: 0.2 }}
-					viewport={{ once: false }}
-				>
-					<img src="./image06.jpg" alt="" />
-				</motion.div>
-			</div>
-			<div className="card-wrapper">
+		<div className="card-wrapper">
+			<div className="card-text">
 				<h3>{translations["press"]?.title}</h3>
 				<p>{translations["press"]?.text}</p>
 				<a
@@ -25,6 +15,16 @@ const Press7 = ({ translations }) => {
 					{translations["press"]?.button}
 					<FaFacebook className="icon" />
 				</a>
+			</div>
+			<div className="img-wrapper right">
+				<motion.div
+					initial={{ x: 50, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.2 }}
+					viewport={{ once: false }}
+				>
+					<img src="./image06.jpg" alt="" />
+				</motion.div>
 			</div>
 		</div>
 	);

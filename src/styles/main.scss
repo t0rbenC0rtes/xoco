@@ -8,14 +8,14 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 }
 
-body {	
+body {
 	display: flex;
 	flex-direction: column;
 	background-color: v.$white;
-	font-family: v.$inter;	
+	font-family: v.$inter;
 	h1,
 	h3,
 	h4,
@@ -24,6 +24,9 @@ body {
 	}
 	h1 {
 		font-size: 2.9375rem;
+		@media screen and (min-width: 768px) {
+			font-size: 6.6875rem;			
+		}
 	}
 	h3 {
 		font-size: 1.6875rem;
@@ -41,25 +44,33 @@ body {
 		padding: 0 20px;
 		text-decoration: none;
 		color: v.$black;
-		font-size: .75rem;
+		font-size: 0.75rem;
 		font-weight: 700;
 		letter-spacing: 2px;
 		line-height: 56px;
-		background-color: v.$true-white;		
+		background-color: v.$true-white;
 		border-radius: 32px;
 		margin-bottom: 20px;
 		.icon {
-			margin-left: 14px;			
+			margin-left: 14px;
 		}
 	}
 	.container {
 		display: flex;
 		flex-direction: column;
-		// align-items: center;
 		justify-content: center;
 		width: 100%;
 		margin: 0 auto;
-		padding: 1rem;
 		overflow-x: clip;
+		// padding: 0 1rem;
+		// @media screen and (min-width: 768px) {
+		// 	padding: 0 5%;
+		// }
+		// @media screen and (min-width: 1024px) {
+		// 	padding: 0 10%;
+		// }
+		// @media screen and (min-width: 2560px) {
+		// 	padding: 0 20%;
+		// }
 	}
 }

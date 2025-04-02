@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Organic6 = ({ translations }) => {
 	return (
-		<div>
+		<div className="card-wrapper">
 			<div className="img-wrapper">
 				<motion.div
 					initial={{ x: -50, opacity: 0 }}
@@ -15,7 +15,7 @@ const Organic6 = ({ translations }) => {
 					<img src="./image05.jpg" alt="" />
 				</motion.div>
 			</div>
-			<div className="card-wrapper">
+			<div className="card-text">
 				<h3>{translations["organic"]?.title}</h3>
 				<p>{translations["organic"]?.text}</p>
 				<a

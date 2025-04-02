@@ -4,8 +4,8 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Unique8 = ({ translations }) => {
 	return (
-		<div>
-			<div className="card-wrapper">
+		<div className="card-wrapper">
+			<div className="card-text">
 				<motion.div
 					initial={{ y: 20, opacity: 0 }}
 					whileInView={{ y: 0, opacity: 1 }}

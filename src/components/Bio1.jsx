@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const Bio1 = ({ translations }) => {
 	return (
-		<div>
+		<div className="card-wrapper">
 			<div className="img-wrapper">
 				<motion.div
 					initial={{ x: -50, opacity: 0 }}
@@ -15,7 +15,7 @@ const Bio1 = ({ translations }) => {
 					<img src="./image01.jpg" alt="" />
 				</motion.div>
 			</div>
-			<div className="card-wrapper">
+			<div className="card-text">
 				<motion.div
 					initial={{ y: 20, opacity: 0 }}
 					whileInView={{ y: 0, opacity: 1 }}

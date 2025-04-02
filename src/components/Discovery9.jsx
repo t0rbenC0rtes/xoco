@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Discovery9 = ({ translations }) => {
 	return (
-		<div>
+		<div className="card-wrapper">
 			<div className="img-wrapper">
 				<motion.div
 					initial={{ x: -50, opacity: 0 }}
@@ -15,7 +15,7 @@ const Discovery9 = ({ translations }) => {
 					<img src="./image07.jpg" alt="" />
 				</motion.div>
 			</div>
-			<div className="card-wrapper">
+			<div className="card-text">
 				<h3>{translations["discovery"]?.title}</h3>
 				<p>{translations["discovery"]?.text}</p>
 				<a
