@@ -11,6 +11,7 @@ import Unique8 from "./components/Unique8";
 import Discovery9 from "./components/Discovery9";
 import Opening from "./components/Opening";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [language, setLanguage] = useState("en");
@@ -36,6 +37,7 @@ const App = () => {
       <Unique8 translations={translations} />
       <Discovery9 translations={translations} />
       <Opening translations={translations} />
+      <Footer translations={translations} />
     </div>
   );
 };

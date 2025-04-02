@@ -1,63 +1,71 @@
 {
-    "header": {
-      "title": "Bienvenido a Xocolate, la chocolatería artesanal en Bruselas"
-    },
-    "bio": {
-      "title": "Orgánico y Comercio Justo",
-      "text": "Xocolate produce chocolate orgánico con una conciencia limpia. Gracias a nuestro compromiso con el comercio justo, nuestros productores de cacao reciben más del doble del precio estándar del mercado mundial. Nos esforzamos por crear chocolate que estimule todos los sentidos.",
-      "button": "SÍGUENOS"
-    },
-    "xavier": {
-      "title": "Sobre Xavier Declercq, el artesano detrás de nuestros sabores",
-      "text": "Xocolate es la creación de Xavier Declercq, chocolatero artesanal. Tras 33 años de compromiso con la solidaridad internacional, Xavier sigue otra pasión: el chocolate. Sin embargo, sus fundamentos y ética permanecen intactos. La dedicación e innovación de Xavier fueron reconocidas por Gault & Millau en 2022 con el título de 'Descubrimiento del Año en Bélgica'.",
-      "button": "CONÓCENOS"
-    },
-    "excellent": {
-      "title": "Pralinés excelentes",
-      "text": "Nuestros excelentes pralinés gozan de gran reconocimiento. Gracias a su sabor refinado, son elegidos por numerosas instituciones, universidades y museos que valoran tanto la calidad como la ética de nuestra chocolatería.",
-      "button": "RESEÑAS EN GOOGLE"
-    },
-    "quality": {
-      "title": "Calidad superior a un precio justo",
-      "text": "Xocolate se asegura de que el chocolate artesanal esté al alcance de todos, apoyando al mismo tiempo el comercio justo en todo el proceso de producción. También somos miembros de la Federación Belga de Comercio Justo (BFTF). ¿Preguntas sobre nuestro chocolate o sobre nuestro proceso de producción orgánico o justo?",
-      "button": "CONTÁCTANOS"
-    },
-    "flavour": {
-      "title": "Menos azúcar, más sabor",
-      "text": "Nuestros pralinés presentan una gama de sabores amplia y refinada. Ideales para encantar la vista y el gusto de tus clientes, empleados, visitantes y colegas, haciendo que cada degustación sea inolvidable.",
-      "button": "SÍGUENOS"
-    },
-    "organic": {
-      "title": "Orgánico",
-      "text": "Obtener un certificado orgánico no es sencillo: es un proceso riguroso en el que los productos se evalúan minuciosamente y se aprueban para cumplir con los estrictos estándares de cultivo ecológico. Es esencial evitar pesticidas químicos y fertilizantes artificiales, y en su lugar fomentar la biodiversidad. Esta certificación es de gran importancia para nosotros. No solo garantiza la calidad superior de nuestro chocolate, sino que también respalda métodos éticos y sostenibles en toda la cadena de suministro.",
-      "button": "MÁS INFORMACIÓN"
-    },
-    "press": {
-      "title": "En la prensa",
-      "text": "Xocolate ha recibido considerable atención mediática en los últimos años. Diversos artículos en la prensa elogian el enfoque innovador de Xavier Declercq en el mundo del chocolate. Se destacan nuestras habilidades artesanales, el abastecimiento ético de los ingredientes y nuestro compromiso con la sostenibilidad y las prácticas de comercio justo. Estamos muy contentos con esta atención, ya que contribuye a una mayor conciencia sobre la importancia de una producción alimentaria sostenible y ética.",
-      "button": "LEER MÁS"
-    },
-    "unique": {
-      "title": "Único y justo",
-      "text": "El enfoque de Xocolate en ingredientes orgánicos y de comercio justo contribuye a un futuro más sostenible para la industria del chocolate. Vive la experiencia única de nuestro chocolate. Prueba la diferencia de un chocolate que tiene una historia que contar. La historia del comercio justo, la historia de un mundo mejor.",
-      "button": "ENCUÉNTRANOS AQUÍ"
-    },
-    "discovery": {
-      "title": "¡Descubrimiento del Año!",
-      "text": "Estamos muy orgullosos de que Xocolate haya sido nombrado 'Descubrimiento del Año en Bélgica' por Gault & Millau — un hermoso reconocimiento a nuestro esfuerzo por la calidad y la sostenibilidad. Lo que distingue a Xocolate es nuestro compromiso inquebrantable con el comercio justo: pagamos a los productores de cacao en Haití el doble del estándar del mercado, incluso comparado con otras marcas 'justas'. Este compromiso refuerza nuestra misión de hacer que el sector del chocolate sea más justo y sostenible, y el reconocimiento de Gault & Millau confirma que vamos por buen camino.",
-      "button": "LEER EL ARTÍCULO"
-    },
-    "opening": {
-      "title": "Horario de apertura",
-      "text": {
-        "monday": "Lunes: 10:00 - 17:30",
-        "tuesday": "Martes: 10:00 - 17:30",
-        "wednesday": "Miércoles: 10:00 - 17:30",
-        "thursday": "Jueves: 10:00 - 17:30",
-        "friday": "Viernes: 10:00 - 17:30",
-        "saturday": "Sábado: 10:00 - 17:30",
-        "sunday": "Domingo: Cerrado"
-      }
-    }
-  }
-  
+	"header": {
+		"title": "Bienvenido a Xocolate, la chocolatería artesanal en Bruselas"
+	},
+	"bio": {
+		"title": "Orgánico y Comercio Justo",
+		"text": "Xocolate produce chocolate orgánico con una conciencia limpia. Gracias a nuestro compromiso con el comercio justo, nuestros productores de cacao reciben más del doble del precio estándar del mercado mundial. Nos esforzamos por crear chocolate que estimule todos los sentidos.",
+		"button": "SÍGUENOS"
+	},
+	"xavier": {
+		"title": "Sobre Xavier Declercq, el artesano detrás de nuestros sabores",
+		"text": "Xocolate es la creación de Xavier Declercq, chocolatero artesanal. Tras 33 años de compromiso con la solidaridad internacional, Xavier sigue otra pasión: el chocolate. Sin embargo, sus fundamentos y ética permanecen intactos. La dedicación e innovación de Xavier fueron reconocidas por Gault & Millau en 2022 con el título de 'Descubrimiento del Año en Bélgica'.",
+		"button": "CONÓCENOS"
+	},
+	"excellent": {
+		"title": "Pralinés excelentes",
+		"text": "Nuestros excelentes pralinés gozan de gran reconocimiento. Gracias a su sabor refinado, son elegidos por numerosas instituciones, universidades y museos que valoran tanto la calidad como la ética de nuestra chocolatería.",
+		"button": "RESEÑAS EN GOOGLE"
+	},
+	"quality": {
+		"title": "Calidad superior a un precio justo",
+		"text": "Xocolate se asegura de que el chocolate artesanal esté al alcance de todos, apoyando al mismo tiempo el comercio justo en todo el proceso de producción. También somos miembros de la Federación Belga de Comercio Justo (BFTF). ¿Preguntas sobre nuestro chocolate o sobre nuestro proceso de producción orgánico o justo?",
+		"button": "CONTÁCTANOS"
+	},
+	"flavour": {
+		"title": "Menos azúcar, más sabor",
+		"text": "Nuestros pralinés presentan una gama de sabores amplia y refinada. Ideales para encantar la vista y el gusto de tus clientes, empleados, visitantes y colegas, haciendo que cada degustación sea inolvidable.",
+		"button": "SÍGUENOS"
+	},
+	"organic": {
+		"title": "Orgánico",
+		"text": "Obtener un certificado orgánico no es sencillo: es un proceso riguroso en el que los productos se evalúan minuciosamente y se aprueban para cumplir con los estrictos estándares de cultivo ecológico. Es esencial evitar pesticidas químicos y fertilizantes artificiales, y en su lugar fomentar la biodiversidad. Esta certificación es de gran importancia para nosotros. No solo garantiza la calidad superior de nuestro chocolate, sino que también respalda métodos éticos y sostenibles en toda la cadena de suministro.",
+		"button": "MÁS INFORMACIÓN"
+	},
+	"press": {
+		"title": "En la prensa",
+		"text": "Xocolate ha recibido considerable atención mediática en los últimos años. Diversos artículos en la prensa elogian el enfoque innovador de Xavier Declercq en el mundo del chocolate. Se destacan nuestras habilidades artesanales, el abastecimiento ético de los ingredientes y nuestro compromiso con la sostenibilidad y las prácticas de comercio justo. Estamos muy contentos con esta atención, ya que contribuye a una mayor conciencia sobre la importancia de una producción alimentaria sostenible y ética.",
+		"button": "LEER MÁS"
+	},
+	"unique": {
+		"title": "Único y justo",
+		"text": "El enfoque de Xocolate en ingredientes orgánicos y de comercio justo contribuye a un futuro más sostenible para la industria del chocolate. Vive la experiencia única de nuestro chocolate. Prueba la diferencia de un chocolate que tiene una historia que contar. La historia del comercio justo, la historia de un mundo mejor.",
+		"button": "ENCUÉNTRANOS AQUÍ"
+	},
+	"discovery": {
+		"title": "¡Descubrimiento del Año!",
+		"text": "Estamos muy orgullosos de que Xocolate haya sido nombrado 'Descubrimiento del Año en Bélgica' por Gault & Millau — un hermoso reconocimiento a nuestro esfuerzo por la calidad y la sostenibilidad. Lo que distingue a Xocolate es nuestro compromiso inquebrantable con el comercio justo: pagamos a los productores de cacao en Haití el doble del estándar del mercado, incluso comparado con otras marcas 'justas'. Este compromiso refuerza nuestra misión de hacer que el sector del chocolate sea más justo y sostenible, y el reconocimiento de Gault & Millau confirma que vamos por buen camino.",
+		"button": "LEER EL ARTÍCULO"
+	},
+	"opening": {
+		"title": "Horario de apertura",
+		"text": {
+			"monday": "Lunes: 10:00 - 17:30",
+			"tuesday": "Martes: 10:00 - 17:30",
+			"wednesday": "Miércoles: 10:00 - 17:30",
+			"thursday": "Jueves: 10:00 - 17:30",
+			"friday": "Viernes: 10:00 - 17:30",
+			"saturday": "Sábado: 10:00 - 17:30",
+			"sunday": "Domingo: Cerrado"
+		}
+	},
+	"contact": {
+		"title": "Contacto",
+		"name": "Xavier Declercq - XOCOLATE",
+		"street": "Rue Auguste Lambiotte 65",
+		"post": "1030 Schaarbeek",
+		"vat": "IVA: BE 0667.779.573",
+		"email": "xavier@chocolate.be  -  +32 475 22 07 91",
+		"review": "Premiado por Gault & Millau en 2022 con el título de 'Descubrimiento del Año en Bélgica'."
+	}
+}
