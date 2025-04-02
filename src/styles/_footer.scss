@@ -1,0 +1,34 @@
+@use "variables" as v;
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: v.$red;
+    position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100vw;
+    padding: 1.25rem;
+    .title {
+        font-family: v.$gloock;
+        color: v.$true-white;
+        font-size: 1.4375rem;
+        padding: 1.25rem 0;
+    }
+    p {
+        color: v.$black;
+        font-size: .8125rem;
+        padding: 0;
+    }
+    .white {
+        color: v.$white;
+    }
+    .review {
+        font-family: v.$gloock;
+        font-size: 1.875rem;
+        line-height: 38px;
+        text-align: right;
+        margin-bottom: 1rem;
+    }
+}

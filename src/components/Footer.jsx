@@ -10,11 +10,11 @@ const Footer = ({ translations }) => {
 					<p>{translations["contact"]?.street}</p>
 					<p>{translations["contact"]?.post}</p>
 					<p>{translations["contact"]?.vat}</p>
-					<p>{translations["contact"]?.email}</p>
+					<p className="white">{translations["contact"]?.email}</p>
 				</div>
 			</div>
-			<div className="review">
-				<p>{translations["contact"]?.review}</p>
+			<div className="review-wrapper">
+				<p className="review white">{translations["contact"]?.review}</p>
 			</div>
 		</div>
 	);
