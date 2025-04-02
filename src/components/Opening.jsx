@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Opening = () => {
+const Opening = ({ translations }) => {
 	return (
 		<div>
 			<div className="img-wrapper">
@@ -15,14 +15,14 @@ const Opening = () => {
 				</motion.div>
 			</div>
 			<div className="card-wrapper hours">
-				<h3>Opening hours</h3>
-				<p>Monday: 10:00-17:30</p>
-				<p>Tuesday: 10:00-17:30</p>
-				<p>Wednesday: 10:00-17:30</p>
-				<p>Thursday: 10:00-17:30</p>
-				<p>Friday: 10:00-17:30</p>
-				<p>Saturday: 10:00-17:30</p>
-				<p>Sunday: Closed</p>
+				<h3>{translations.opening?.title}</h3>
+				<p>{translations.opening?.text.monday}</p>
+				<p>{translations.opening?.text.tuesday}</p>
+				<p>{translations.opening?.text.wednesday}</p>
+				<p>{translations.opening?.text.thursday}</p>
+				<p>{translations.opening?.text.friday}</p>
+				<p>{translations.opening?.text.saturday}</p>
+				<p>{translations.opening?.text.sunday}</p>
 			</div>
 		</div>
 	);

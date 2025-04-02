@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    button {
+        border: none;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

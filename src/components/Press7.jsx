@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaFacebook } from "react-icons/fa";
 
-const Press7 = () => {
+const Press7 = ({ translations }) => {
 	return (
 		<div>
 			<div className="img-wrapper">
@@ -16,19 +16,10 @@ const Press7 = () => {
 				</motion.div>
 			</div>
 			<div className="card-wrapper">
-				<h3>Press articles</h3>
-				<p>
-					Xocolate has received significant media attention in recent
-					years. Various press articles have praised Xavier Declercq’s
-					innovative approach in the world of chocolate. They speak
-					highly of our artisanal craftsmanship, ethical sourcing of
-					ingredients, and our commitment to sustainability and fair
-					trade practices. We are very pleased with all this
-					attention, as it gradually raises awareness about the
-					importance of sustainable and ethical food production.
-				</p>
+				<h3>{translations["press"]?.title}</h3>
+				<p>{translations["press"]?.text}</p>
 				<a href="https://www.facebook.com/XavierXocolate/">
-					READ MORE
+					{translations["press"]?.button}
 					<FaFacebook className="icon" />
 				</a>
 			</div>

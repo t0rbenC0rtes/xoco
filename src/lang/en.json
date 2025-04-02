@@ -1,0 +1,62 @@
+{
+	"header": {
+		"title": "Welcome to Xocolate, the artisanal chocolatier in Brussels"
+	},
+	"bio": {
+		"title": "Organic and Fair Trade",
+		"text": "Xocolate produces organic chocolate with a clear conscience. Through our commitment to fair trade, our cocoa farmers receive more than double the standard world market price. We strive to create chocolate that stimulates all the senses.",
+		"button": "FOLLOW US"
+	},
+	"xavier": {
+		"title": "About Xavier Declercq, the artisan behind the taste",
+		"text": "Xocolate is the creation of Xavier Declercq, an artisanal chocolatier. After 33 years of dedication to international solidarity, Xavier has followed another passion: chocolate. However, his principles and ethics remain unchanged. Xavier’s dedication and innovation were recognized by Gault & Millau in 2022 with the title “Discovery of the Year for Belgium.”",
+		"button": "MEET XAVIER"
+	},	
+	"excellent": {
+		"title": "Excellent pralines",
+		"text": "Our excellent pralines enjoy wide recognition. Thanks to their refined taste, our pralines are chosen by numerous institutions, universities, and museums that appreciate both the quality and the ethics of our chocolaterie.",
+		"button": "GOOGLE REVIEWS"
+	},
+    "quality": {
+		"title": "Top quality at a fair price",
+		"text": "Xocolate ensures that handmade chocolate is accessible to everyone while supporting fair trade throughout the entire production process. We are also a member of the Belgian Fair Trade Federation (BFTF). Questions about our chocolate or our organic or fair trade production process?",
+		"button": "CONTACT US"
+	},
+    "flavour": {
+		"title": "Less sugar, more flavor",
+		"text": "Our pralines offer a broad and refined flavor range. Perfect for enchanting the eyes and taste buds of your clients, employees, visitors, and colleagues, making every tasting unforgettable.",
+		"button": "FOLLOW US"
+	},
+    "organic": {
+		"title": "Organic",
+		"text": "Obtaining an organic certificate is no easy feat: it is a meticulous process in which products are carefully evaluated and approved to meet the strict standards of organic farming. It is essential to avoid using chemical pesticides and artificial fertilizers, and instead promote biodiversity. Such certification is of great importance to us. It not only guarantees the superior quality of our chocolate but also supports ethical and sustainable practices throughout the entire supply chain.",
+		"button": "MORE INFO"
+	},
+    "press": {
+		"title": "Press articles",
+		"text": "Xocolate has received significant media attention in recent years. Various press articles have praised Xavier Declercq’s innovative approach in the world of chocolate. They speak highly of our artisanal craftsmanship, ethical sourcing of ingredients, and our commitment to sustainability and fair trade practices. We are very pleased with all this attention, as it gradually raises awareness about the importance of sustainable and ethical food production.",
+		"button": "READ MORE"
+	},
+    "unique": {
+		"title": "Unique and fair",
+		"text": "Xocolate’s focus on fair trade and organic ingredients contributes to a more sustainable future for the chocolate industry. Experience the unique sensation of our chocolate. Taste the difference of chocolate that tells a deeper story—the story of fair trade, the story of a better world.",
+		"button": "FIND US HERE"
+	},
+    "discovery": {
+		"title": "Discovery of the year!",
+		"text": "We are incredibly proud that Xocolate has been named “Discovery of the Year for Belgium” by Gault & Millau—a wonderful recognition of our commitment to quality and sustainability. What sets Xocolate apart is our unwavering dedication to fair trade: we pay cocoa farmers in Haiti twice the market standard, even compared to other so-called 'fair' brands. This commitment reinforces our mission to make the chocolate sector fairer and more sustainable, and the Gault & Millau award confirms that we are on the right path.",
+		"button": "READ FULL ARTICLE"
+	},
+    "opening": {
+		"title": "Opening hours",
+		"text": {
+            "monday": "Monday: 10:00 - 17:30",
+            "tuesday": "Tuesday: 10:00 - 17:30",
+            "wednesday": "Wednesday: 10:00 - 17:30",
+            "thursday": "Thursday: 10:00 - 17:30",
+            "friday": "Friday: 10:00 - 17:30",
+            "saturday": "Saturday: 10:00 - 17:30",
+            "sunday": "Sunday: Closed"
+        }
+	}
+}

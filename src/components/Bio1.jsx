@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaFacebook } from "react-icons/fa";
 
-const Bio1 = () => {
+const Bio1 = ({translations}) => {
 	return (
 		<div>
 			<div className="img-wrapper">
@@ -22,15 +22,11 @@ const Bio1 = () => {
 					transition={{ duration: 0.8, delay: 0.2 }}
 					viewport={{ once: false }}
 				>
-					<h3>Biologisch en Fair Trade.</h3>
+					<h3>{translations["bio"]?.title}</h3>
 					<p>
-						Xocolate produces organic chocolate with a clear
-						conscience. Through our commitment to fair trade, our
-						cocoa farmers receive more than double the standard
-						world market price. We strive to create chocolate that
-						stimulates all the senses.
+					{translations["bio"]?.text}
 					</p>
-					<a href="https://www.facebook.com/XavierXocolate/">FOLLOW US<FaFacebook className="icon"/></a>
+					<a href="https://www.facebook.com/XavierXocolate/">{translations["bio"]?.button}<FaFacebook className="icon"/></a>
 				</motion.div>
 			</div>
 		</div>

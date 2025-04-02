@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 
-const Discovery9 = () => {
+const Discovery9 = ({ translations }) => {
 	return (
 		<div>
 			<div className="img-wrapper">
@@ -16,21 +16,10 @@ const Discovery9 = () => {
 				</motion.div>
 			</div>
 			<div className="card-wrapper">
-				<h3>Discovery of the year!</h3>
-				<p>
-					We are incredibly proud that Xocolate has been named
-					“Discovery of the Year for Belgium” by Gault & Millau—a
-					wonderful recognition of our commitment to quality and
-					sustainability. What sets Xocolate apart is our unwavering
-					dedication to fair trade: we pay cocoa farmers in Haiti
-					twice the market standard, even compared to other so-called
-					'fair' brands. This commitment reinforces our mission to
-					make the chocolate sector fairer and more sustainable, and
-					the Gault & Millau award confirms that we are on the right
-					path.
-				</p>
+				<h3>{translations["discovery"]?.title}</h3>
+				<p>{translations["discovery"]?.text}</p>
 				<a href="https://www.gaultmillau.be/en/chocolatiers/xocolate-bruxelles-schaerbeek">
-					READ FULL ARTICLE
+					{translations["discovery"]?.button}
 					<FaArrowRight className="icon" />
 				</a>
 			</div>

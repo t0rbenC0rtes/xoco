@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { MdOutlineEmail } from "react-icons/md";
 
-const Xavier2 = () => {
+const Xavier2 = ({translations}) => {
 	return (
 		<div>
 			<div className="img-wrapper">
@@ -16,18 +16,12 @@ const Xavier2 = () => {
 				</motion.div>
 			</div>
 			<div className="card-wrapper">
-				<h3>About Xavier Declercq, the artisan behind the taste.</h3>
+				<h3>{translations["xavier"]?.title}</h3>
 				<p>
-					Xocolate is the creation of Xavier Declercq, an artisanal
-					chocolatier. After 33 years of dedication to international
-					solidarity, Xavier has followed another passion: chocolate.
-					However, his principles and ethics remain unchanged.
-					Xavier’s dedication and innovation were recognized by Gault
-					& Millau in 2022 with the title “Discovery of the Year for
-					Belgium.”
+				{translations["xavier"]?.text}
 				</p>
 				<a href="mailto:xavier@xocolate.be">
-					MEET XAVIER
+				{translations["xavier"]?.button}
 					<MdOutlineEmail className="icon" />
 				</a>
 			</div>

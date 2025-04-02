@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Header = () => {
+const Header = ({ translations }) => {
 	return (
 		<div className="card-wrapper">
 			<motion.div
@@ -12,7 +12,7 @@ const Header = () => {
 			>
 				<h1>Xocolate</h1>
 				<h3>
-					Welcome to Xocolate, the artisanal chocolatier in Brussels.
+					{translations["header"]?.title}
 				</h3>
 			</motion.div>
 		</div>

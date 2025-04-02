@@ -1,0 +1,62 @@
+{
+	"header": {
+		"title": "Welkom bij Xocolate, de ambachtelijke chocolaterie in Brussel"
+	},
+	"bio": {
+		"title": "Biologisch en Fair Trade",
+		"text": "Xocolate produceert biologische chocolade met een zuiver geweten. Door onze inzet voor fair trade ontvangen onze cacaoboeren meer dan het dubbele van de gangbare wereldmarktprijs. We streven ernaar om chocolade te maken die alle zintuigen stimuleert.",
+		"button": "VOLG ONS"
+	},
+	"xavier": {
+		"title": "Over Xavier Declercq, de ambachtsman achter onze smaken",
+		"text": "Xocolate is de creatie van Xavier Declercq, ambachtelijk chocolatier. Na 33 jaar engagement in de internationale solidariteit volgt Xavier een andere passie: chocolade. Zijn fundamenten en ethiek blijven echter onveranderd. Xavier's toewijding en innovatie werden door Gault & Millau in 2022 bekroond met de titel 'Ontdekking van het Jaar voor België'.",
+		"button": "MAAK KENNIS"
+	},	
+	"excellent": {
+		"title": "Excellente pralines",
+		"text": "Onze excellente pralines genieten brede erkenning. Dankzij hun verfijnde smaak worden onze pralines gekozen door talrijke instellingen, universiteiten en musea, die zowel de kwaliteit als de ethiek van onze chocolaterie waarderen.",
+		"button": "GOOGLE REVIEWS"
+	},
+    "quality": {
+		"title": "Topkwaliteit tegen een eerlijke prijs",
+		"text": "Xocolate zorgt ervoor dat handgemaakte chocolade voor iedereen beschikbaar is en steunt ondertussen de eerlijke handel gedurende het gehele productieproces. We zijn eveneens lid van de Belgische Federatie voor Fair Trade (BFTF). Vragen over onze chocolade of ons bio of fair trade productieproces?",
+		"button": "NEEM CONTACT OP"
+	},
+    "flavour": {
+		"title": "Minder suiker, meer smaak",
+		"text": "Onze pralines presenteren een uitgebreid en verfijnd smaakgamma. Ideaal om de blikken en de smaak van uw klanten, medewerkers, bezoekers en collega's te betoveren, zodat elke degustatie onvergetelijk wordt.",
+		"button": "VOLG ONS"
+	},
+    "organic": {
+		"title": "Biologisch",
+		"text": "Het verkrijgen van een bio-certificaat is niet simpel: het is een nauwgezet traject waarin producten nauwlettend worden geëvalueerd en goedgekeurd om te voldoen aan de strikte standaarden van biologische teelt. Hierbij is het essentieel om geen chemische pesticiden en kunstmest te gebruiken en in plaats daarvan de biodiversiteit te stimuleren. Zo'n certificering is voor ons van groot belang. Het verzekert niet alleen de superieure kwaliteit van onze chocolade, maar ondersteunt ook nog eens de ethische en duurzame methodes binnen de gehele toeleveringsketen.",
+		"button": "MEER INFO"
+	},
+    "press": {
+		"title": "In de pers",
+		"text": "Xocolate heeft de afgelopen jaren aanzienlijke media-aandacht gekregen. In diverse artikelen in de pers wordt de lof gezongen over de innovatieve benadering van Xavier Declercq in de chocoladewereld. Men spreekt onder andere vol lof over onze ambachtelijke vaardigheden, de ethische sourcing van ingrediënten, en ons commitment aan duurzaamheid en fairtrade praktijken. Wij zijn erg blij met al deze aandacht, want zo komt er langzamerhand meer bewustzijn over het belang van duurzame en ethische voedselproductie.",
+		"button": "LEES MEER"
+	},
+    "unique": {
+		"title": "Uniek en eerlijk",
+		"text": "Xocolates focus op fair trade en biologische ingrediënten draagt bij aan een duurzamere toekomst voor de chocolade-industrie. Beleef de unieke ervaring van onze chocolade. Proef het verschil met chocolade die meer vertelt. Het verhaal van eerlijke handel, het verhaal van een betere wereld.",
+		"button": "JE VINDT ONS HIER"
+	},
+    "discovery": {
+		"title": "Ontdekking van het Jaar!",
+		"text": "We zijn enorm trots dat Xocolate door Gault & Millau is uitgeroepen tot 'Ontdekking van het Jaar voor België'—een prachtige erkenning voor ons streven naar kwaliteit en duurzaamheid. Wat Xocolate onderscheidt, is onze onwrikbare inzet voor eerlijke handel: we betalen cacaoboeren in Haïti dubbel zoveel als de marktstandaard, zelfs in vergelijking met andere 'fair' merken. Dit engagement onderstreept onze missie om de chocoladesector eerlijker en duurzamer te maken, en de onderscheiding van Gault & Millau bevestigt dat we op de juiste weg zijn.",
+		"button": "LEES HET ARTICLE"
+	},
+    "opening": {
+		"title": "Openingsuren",
+		"text": {
+            "monday": "Maandag: 10:00 - 17:30",
+            "tuesday": "Dinsdag: 10:00 - 17:30",
+            "wednesday": "Woensdag: 10:00 - 17:30",
+            "thursday": "Donderdag: 10:00 - 17:30",
+            "friday": "Vrijdag: 10:00 - 17:30",
+            "saturday": "Zaterdag: 10:00 - 17:30",
+            "sunday": "Zondag: Gesloten"
+        }
+	}
+}

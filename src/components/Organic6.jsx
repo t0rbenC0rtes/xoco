@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 
-const Organic6 = () => {
+const Organic6 = ({ translations }) => {
 	return (
 		<div>
 			<div className="img-wrapper">
@@ -16,20 +16,10 @@ const Organic6 = () => {
 				</motion.div>
 			</div>
 			<div className="card-wrapper">
-				<h3>Organic</h3>
-				<p>
-					Obtaining an organic certificate is no easy feat: it is a
-					meticulous process in which products are carefully evaluated
-					and approved to meet the strict standards of organic
-					farming. It is essential to avoid using chemical pesticides
-					and artificial fertilizers, and instead promote
-					biodiversity. Such certification is of great importance to
-					us. It not only guarantees the superior quality of our
-					chocolate but also supports ethical and sustainable
-					practices throughout the entire supply chain.
-				</p>
+				<h3>{translations["organic"]?.title}</h3>
+				<p>{translations["organic"]?.text}</p>
 				<a href="https://www.tuv-nord.com/be/nl/certificatie/bio/">
-					MORE INFO
+					{translations["organic"]?.button}
 					<FaArrowRight className="icon" />
 				</a>
 			</div>
