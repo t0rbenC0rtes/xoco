@@ -26,18 +26,29 @@ const App = () => {
 
 	return (
 		<div className="container">
-			<Navbar setLanguage={setLanguage} />
+			<Navbar setLanguage={setLanguage} />			
 			<Header translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Bio1 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Xavier2 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Excellent3 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Quality4 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Flavour5 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Organic6 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Press7 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Unique8 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Discovery9 translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Opening translations={translations} />
+			<div style={{backgroundColor:"rgba(223,223,223,255)", width:"100%", height:"1px"}}></div>
 			<Footer translations={translations} />
 			<Socials />
 		</div>
