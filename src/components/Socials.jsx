@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const Socials = () => {
 	return (
-		<div className="socials-wrapper">
+		<div className="socials-wrapper card-wrapper">
 			<div className="icons-wrapper">
 				<a
 					className="social-icon"

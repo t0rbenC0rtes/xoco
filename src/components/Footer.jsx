@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = ({ translations }) => {
 	return (
-		<div className="footer-wrapper">
+		<div className="footer-wrapper card-wrapper">
 			<div className="info-wrapper">
 				<div className="title">{translations["contact"]?.title}</div>
 				<div className="info">
