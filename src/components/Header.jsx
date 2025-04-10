@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Header = ({ translations }) => {
 	return (
-		<div className="card-wrapper">
+		<div className="card-wrapper" style={{zIndex: 5}}>
 			<motion.div
 				initial={{ y: 20, opacity: 0 }}
 				whileInView={{ y: 0, opacity: 1 }}

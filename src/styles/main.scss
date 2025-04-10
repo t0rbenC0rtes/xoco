@@ -24,8 +24,16 @@ body {
 	}
 	h1 {
 		font-size: 2.9375rem;
+		color: hsl(0 0% 0% / 0.1);
+		background-clip: text;
+		background-size: 0% 100%;
+		background-repeat: no-repeat;
+		background-image: linear-gradient(90deg, v.$black, v.$white);
+		animation: scroll-reveal linear forwards;
+		animation-timeline: view();
+		animation-range: contain;
 		@media screen and (min-width: 768px) {
-			font-size: 6.6875rem;			
+			font-size: 6.6875rem;
 		}
 	}
 	h3 {
@@ -37,7 +45,7 @@ body {
 		line-height: 23px;
 		@media screen and (min-width: 1024px) {
 			font-size: 1.125rem;
-			line-height: 32px;			
+			line-height: 32px;
 		}
 	}
 	a {
@@ -66,16 +74,14 @@ body {
 		width: 100%;
 		margin: 0 auto;
 		overflow-x: clip;
-		// padding: 0 1rem;
-		// @media screen and (min-width: 768px) {
-		// 	padding: 0 5%;
-		// }
-		// @media screen and (min-width: 1024px) {
-		// 	padding: 0 10%;
-		// }
-		// @media screen and (min-width: 2560px) {
-		// 	padding: 0 20%;
-		// moved this to card-wrapper}
+		@media screen and (min-width: 2560px) {
+			padding: 0 20%;
+		}
 	}
-	
+}
+
+@keyframes scroll-reveal {
+	to {
+		background-size: 100% 100%;
+	}
 }

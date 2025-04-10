@@ -4,7 +4,7 @@ import { FaStar, FaGoogle } from "react-icons/fa";
 
 const Excellent3 = ({ translations }) => {
 	return (
-		<div className="card-wrapper">
+		<div className="card-wrapper" style={{zIndex: 10}}>
 			<div className="card-text">
 				<motion.div
 					initial={{ y: 20, opacity: 0 }}
