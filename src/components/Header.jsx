@@ -14,7 +14,7 @@ const Header = ({ translations }) => {
 			>
 				<h1>Xocolate</h1>
 				<Link to="/pralines" className="pralines-menu-btn">
-					<button>Pralines Menu</button>
+					<button>{translations["nav"]?.pralines}</button>
 				</Link>
 				<h3>{translations["header"]?.title}</h3>
 			</motion.div>
