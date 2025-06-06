@@ -1,0 +1,21 @@
+@use "variables" as v;
+
+.pralines-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+	background-color: v.$white;
+	.praline-card {        
+		h3,
+		img,
+		p {
+			padding: 0;
+		}
+	}
+
+	img {
+		max-width: 30vw;
+	}
+}

@@ -70,5 +70,9 @@
 	},
 	"nav": {
 		"pralines": "Pralines Menu"
+	},
+	"labels": {
+		"alcohol_yes": "Contains alcohol",
+		"alcohol_no": "Does not contain alcohol"
 	}
 }
