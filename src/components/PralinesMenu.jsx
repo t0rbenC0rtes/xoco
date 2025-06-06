@@ -30,11 +30,6 @@ const PralinesMenu = ({ translations, language, setLanguage }) => {
 				<div className="pralines-grid">
 					{pralines.map((item) => (
 						<div key={item.id} className="praline-card">
-							<h3>
-								{item[`name_${language}`]}
-								{item.contains_alcohol === true && <MdLiquor />}
-							</h3>
-
 							<div
 								className="praline-img-wrapper"
 								onClick={() => setSelectedPraline(item)}
@@ -44,6 +39,10 @@ const PralinesMenu = ({ translations, language, setLanguage }) => {
 									alt={item[`name_${language}`]}
 								/>
 							</div>
+							<h3>
+								{item[`name_${language}`]}
+								{item.contains_alcohol === true && <MdLiquor />}
+							</h3>
 						</div>
 					))}
 				</div>

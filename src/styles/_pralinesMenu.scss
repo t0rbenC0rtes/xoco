@@ -8,24 +8,28 @@
 	padding: 2rem;
 	background-color: v.$white;
 	.praline-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;     
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		h3,
 		img,
 		p {
 			padding: 0;
-            font-family: v.$gloock;
+			font-family: v.$gloock;
 		}
-        h3{
-            display: flex;
-            align-items: center;
-            gap:1rem;
-        }
+
+		h3 {
+			display: flex;
+			align-items: center;
+			gap: .5rem;
+			font-size: 1.4rem;
+            font-weight: 400;
+			margin-top: -6rem;			
+		}
 	}
 
 	img {
-		max-width: 40vw;
+		max-width: 70vw;
 	}
 }
