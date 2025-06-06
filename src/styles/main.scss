@@ -85,6 +85,17 @@ body {
 			padding: 0 20%;
 		}
 	}
+	.pralines-menu-btn, .pralines-menu-btn button {
+		background-color: v.$white;
+		color: v.$black;
+		font-size: 0.75rem;
+		font-weight: 700;
+		letter-spacing: 2px;
+		font-family: "Inter", sans-serif;
+		margin: 0;
+		padding: .325rem;
+		text-transform: uppercase;		
+	}
 }
 
 @keyframes scroll-reveal {
