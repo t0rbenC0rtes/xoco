@@ -7,15 +7,25 @@
 	justify-content: center;
 	padding: 2rem;
 	background-color: v.$white;
-	.praline-card {        
+	.praline-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;     
 		h3,
 		img,
 		p {
 			padding: 0;
+            font-family: v.$gloock;
 		}
+        h3{
+            display: flex;
+            align-items: center;
+            gap:1rem;
+        }
 	}
 
 	img {
-		max-width: 30vw;
+		max-width: 40vw;
 	}
 }
