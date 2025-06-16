@@ -43,10 +43,31 @@ const PralinesMenu = ({ translations, language, setLanguage }) => {
 			<Navbar setLanguage={setLanguage} />
 			<div className="pralines-container">
 				<Link to="/" className="pralines-menu-btn">
-					<button><FaArrowLeft />HOMEPAGE</button>
+					<button>
+						<FaArrowLeft />
+						HOMEPAGE
+					</button>
 				</Link>
 				<h2>{translations?.nav?.pralines || "Our Pralines"}</h2>
-				<h4>{translations?.instructions?.swiper || ""}</h4>
+				{/* <h4>{translations?.instructions?.swiper || ""}</h4> */}
+				<div style={{ display: "flex", alignItems: "center" }}>
+					<video
+						src="./swipeAnim.webm"
+						type="video/webm"
+						muted
+						autoPlay
+						loop
+						height="25"
+					></video>
+					<video
+						src="./touchAnim.webm"
+						type="video/webm"
+						muted
+						autoPlay
+						loop
+						height="40"
+					></video>
+				</div>
 				<Swiper
 					modules={[
 						Navigation,
@@ -97,7 +118,7 @@ const PralinesMenu = ({ translations, language, setLanguage }) => {
 					))}
 				</Swiper>
 			</div>
-			<div className="pralines-container">				
+			<div className="pralines-container">
 				<Swiper
 					modules={[
 						Navigation,
