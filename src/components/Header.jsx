@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = ({ translations }) => {
 	return (
-		<div className="card-wrapper" style={{ zIndex: 5 }}>
+		<div className="card-wrapper">
 			<motion.div
 				initial={{ y: 20, opacity: 0 }}
 				whileInView={{ y: 0, opacity: 1 }}

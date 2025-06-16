@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Unique8 = ({ translations }) => {
 	return (
-		<div className="card-wrapper" style={{ zIndex: 15 }}>
+		<div className="card-wrapper">
 			<div className="card-text">
 				<motion.div
 					initial={{ y: 20, opacity: 0 }}
