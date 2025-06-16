@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot, FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Unique8 = ({ translations }) => {
@@ -15,7 +15,7 @@ const Unique8 = ({ translations }) => {
 				>
 					<h1>{translations["unique"]?.title}</h1>
 					<Link to="/pralines" className="pralines-menu-btn">
-						<button>Pralines Menu</button>
+						<button>{translations["nav"]?.pralines}<FaArrowRight /></button>
 					</Link>
 					<p>{translations["unique"]?.text}</p>
 					<a

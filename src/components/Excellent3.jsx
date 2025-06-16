@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaStar, FaGoogle } from "react-icons/fa";
+import { FaStar, FaGoogle, FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Excellent3 = ({ translations }) => {
@@ -15,7 +15,7 @@ const Excellent3 = ({ translations }) => {
 				>
 					<h1>{translations["excellent"]?.title}</h1>
 					<Link to="/pralines" className="pralines-menu-btn">
-						<button>Pralines Menu</button>
+						<button>{translations["nav"]?.pralines}<FaArrowRight /></button>
 					</Link>
 					<p>{translations["excellent"]?.text}</p>
 					<a

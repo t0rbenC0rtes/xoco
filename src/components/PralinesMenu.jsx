@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import { supabase } from "../supabase";
 import Navbar from "./Navbar";
 import { MdLiquor } from "react-icons/md";
+import { FaArrowLeft } from "react-icons/fa";
 import PralineModal from "./PralineModal";
+import { Link } from "react-router-dom";
 
 import {
 	Navigation,
@@ -40,6 +42,9 @@ const PralinesMenu = ({ translations, language, setLanguage }) => {
 		<>
 			<Navbar setLanguage={setLanguage} />
 			<div className="pralines-container">
+				<Link to="/" className="pralines-menu-btn">
+					<button><FaArrowLeft />HOMEPAGE</button>
+				</Link>
 				<h2>{translations?.nav?.pralines || "Our Pralines"}</h2>
 				<h4>{translations?.instructions?.swiper || ""}</h4>
 				<Swiper

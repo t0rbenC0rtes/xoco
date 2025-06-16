@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
+
 
 const Header = ({ translations }) => {
 	return (
@@ -14,7 +16,7 @@ const Header = ({ translations }) => {
 			>
 				<h1>Xocolate</h1>
 				<Link to="/pralines" className="pralines-menu-btn">
-					<button>{translations["nav"]?.pralines}</button>
+					<button>{translations["nav"]?.pralines}<FaArrowRight /></button>
 				</Link>
 				<h3>{translations["header"]?.title}</h3>
 			</motion.div>
