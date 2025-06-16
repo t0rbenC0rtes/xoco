@@ -27,7 +27,7 @@ const Home = ({ language, setLanguage, translations }) => {
 					height: "1px",
 				}}
 			></div>
-			<Map />
+			<Map translations={translations} />
 			<Bio1 translations={translations} />
 			<div
 				style={{

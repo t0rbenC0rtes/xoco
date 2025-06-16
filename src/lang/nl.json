@@ -74,5 +74,9 @@
 	"labels": {
 		"alcohol_yes": "Bevat alcohol",
 		"alcohol_no": "Bevat geen alcohol"
+	},
+	"mapButton": {
+		"mapOn": "StreetView gebruiken",
+		"mapOff": "StreetView uitschakelen"
 	}
 }

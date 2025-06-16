@@ -74,5 +74,9 @@
 	"labels": {
 		"alcohol_yes": "Contiene alcohol",
 		"alcohol_no": "No contiene alcohol"
+	},
+	"mapButton": {
+		"mapOn": "Habilitar StreetView",
+		"mapOff": "Deshabilitar StreetView"
 	}
 }
