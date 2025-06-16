@@ -78,5 +78,8 @@
 	"mapButton": {
 		"mapOn": "Activer StreetView",
 		"mapOff": "Désactiver StreetView"
+	},
+	"instructions": {
+		"swiper": "Swipez pour découvrir nos pralines, cliquez pour afficher les détails. Utilisez les deux sliders pour comparer les pralines."
 	}
 }

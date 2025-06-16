@@ -78,5 +78,8 @@
 	"mapButton": {
 		"mapOn": "StreetView gebruiken",
 		"mapOff": "StreetView uitschakelen"
+	},
+	"instructions": {
+		"swiper": "Swipe om onze pralines te ontdekken, klik om de details te bekijken. Gebruik beide schuifbalken om pralines te vergelijken."
 	}
 }

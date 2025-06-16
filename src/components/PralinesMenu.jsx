@@ -4,6 +4,20 @@ import Navbar from "./Navbar";
 import { MdLiquor } from "react-icons/md";
 import PralineModal from "./PralineModal";
 
+import {
+	Navigation,
+	Pagination,
+	Scrollbar,
+	A11y,
+	EffectCoverflow,
+} from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/effect-coverflow";
+
 const PralinesMenu = ({ translations, language, setLanguage }) => {
 	const [pralines, setPralines] = useState([]);
 	const [selectedPraline, setSelectedPraline] = useState(null);
@@ -26,26 +40,108 @@ const PralinesMenu = ({ translations, language, setLanguage }) => {
 		<>
 			<Navbar setLanguage={setLanguage} />
 			<div className="pralines-container">
-				{/* <h2>{translations?.nav?.pralines || "Our Pralines"}</h2> */}
-				<div className="pralines-grid">
+				<h2>{translations?.nav?.pralines || "Our Pralines"}</h2>
+				<h4>{translations?.instructions?.swiper || ""}</h4>
+				<Swiper
+					modules={[
+						Navigation,
+						Pagination,
+						Scrollbar,
+						A11y,
+						EffectCoverflow,
+					]}
+					speed={800}
+					effect="coverflow"
+					direction="horizontal"
+					coverflowEffect={{
+						rotate: 80,
+						stretch: 0,
+						depth: 78,
+						modifier: 2,
+						slideShadows: false,
+					}}
+					grabCursor
+					centeredSlides
+					spaceBetween={50}
+					slidesPerView={1}
+					navigation
+					pagination={{ clickable: true }}
+					scrollbar={{ draggable: true }}
+					className="praline-swiper"
+				>
 					{pralines.map((item) => (
-						<div key={item.id} className="praline-card">
-							<div
-								className="praline-img-wrapper"
-								onClick={() => setSelectedPraline(item)}
-							>
-								<img
-									src={item.image}
-									alt={item[`name_${language}`]}
-								/>
+						<SwiperSlide key={item.id}>
+							<div className="praline-card">
+								<div
+									className="praline-img-wrapper"
+									onClick={() => setSelectedPraline(item)}
+								>
+									<img
+										src={item.image}
+										alt={item[`name_${language}`]}
+									/>
+								</div>
+								<h3>
+									{item[`name_${language}`]}
+									{item.contains_alcohol === true && (
+										<MdLiquor />
+									)}
+								</h3>
 							</div>
-							<h3>
-								{item[`name_${language}`]}
-								{item.contains_alcohol === true && <MdLiquor />}
-							</h3>
-						</div>
+						</SwiperSlide>
 					))}
-				</div>
+				</Swiper>
+			</div>
+			<div className="pralines-container">				
+				<Swiper
+					modules={[
+						Navigation,
+						Pagination,
+						Scrollbar,
+						A11y,
+						EffectCoverflow,
+					]}
+					speed={800}
+					effect="coverflow"
+					direction="horizontal"
+					coverflowEffect={{
+						rotate: 80,
+						stretch: 0,
+						depth: 78,
+						modifier: 2,
+						slideShadows: false,
+					}}
+					grabCursor
+					centeredSlides
+					spaceBetween={50}
+					slidesPerView={1}
+					navigation
+					pagination={{ clickable: true }}
+					scrollbar={{ draggable: true }}
+					className="praline-swiper"
+				>
+					{pralines.map((item) => (
+						<SwiperSlide key={item.id}>
+							<div className="praline-card">
+								<div
+									className="praline-img-wrapper"
+									onClick={() => setSelectedPraline(item)}
+								>
+									<img
+										src={item.image}
+										alt={item[`name_${language}`]}
+									/>
+								</div>
+								<h3>
+									{item[`name_${language}`]}
+									{item.contains_alcohol === true && (
+										<MdLiquor />
+									)}
+								</h3>
+							</div>
+						</SwiperSlide>
+					))}
+				</Swiper>
 			</div>
 
 			<PralineModal

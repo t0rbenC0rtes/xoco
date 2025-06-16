@@ -78,5 +78,8 @@
 	"mapButton": {
 		"mapOn": "Enable StreetView",
 		"mapOff": "Disable StreetView"
+	},
+	"instructions": {
+		"swiper": "Swipe to discover our pralines, click to open details. Use both sliders to compare pralines."
 	}
 }
