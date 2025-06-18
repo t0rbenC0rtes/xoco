@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const Bio1 = ({ translations }) => {
 	return (
-		<div className="card-wrapper">
+		<div className="card-wrapper reverse">
 			<div className="img-wrapper">
 				<motion.div
 					initial={{ x: -50, opacity: 0 }}

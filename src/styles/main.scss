@@ -8,6 +8,7 @@
 @use "pralinesMenu";
 @use "pralineModal";
 @use "swiper";
+@use "logo";
 
 * {
 	margin: 0;
@@ -48,6 +49,7 @@ body {
 	}
 	h3 {
 		font-size: 1.6875rem;
+		font-weight: 400;
 	}
 	p {
 		font-family: v.$instrument;
@@ -90,7 +92,7 @@ body {
 	}
 	.pralines-menu-btn, .pralines-menu-btn button {
 		background-color: v.$white;
-		color: v.$black;
+		color: v.$brown;
 		font-size: 0.75rem;
 		font-weight: 700;
 		letter-spacing: 2px;

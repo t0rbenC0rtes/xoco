@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-
+import Logo from "./Logo";
 
 const Header = ({ translations }) => {
 	return (
@@ -14,9 +14,13 @@ const Header = ({ translations }) => {
 				viewport={{ once: false }}
 				className="card-text"
 			>
-				<h1>Xocolate</h1>
+				{/* <h1>Xocolate</h1> */}
+				<Logo />
 				<Link to="/pralines" className="pralines-menu-btn">
-					<button>{translations["nav"]?.pralines}<FaArrowRight /></button>
+					<button>
+						{translations["nav"]?.pralines}
+						<FaArrowRight />
+					</button>
 				</Link>
 				<h3>{translations["header"]?.title}</h3>
 			</motion.div>
