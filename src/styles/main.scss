@@ -75,6 +75,7 @@ body {
 		background-color: v.$true-white;
 		border-radius: 32px;
 		margin-bottom: 20px;
+
 		.icon {
 			margin-left: 14px;
 		}
@@ -90,7 +91,11 @@ body {
 			padding: 0 20%;
 		}
 	}
-	.pralines-menu-btn, .pralines-menu-btn button {
+	.pralines-menu-btn {
+		border-radius: 12px;
+	}
+	.pralines-menu-btn,
+	.pralines-menu-btn button {
 		background-color: v.$white;
 		color: v.$brown;
 		font-size: 0.75rem;
@@ -98,13 +103,36 @@ body {
 		letter-spacing: 2px;
 		font-family: "Inter", sans-serif;
 		margin: 0;
-		padding: .325rem;
-		text-transform: uppercase;		
+		padding: 0.325rem;
+		text-transform: uppercase;
+		background: linear-gradient(
+			90deg,
+			v.$white 0%,
+			v.$true-white 50%,
+			v.$white 100%
+		);
+		background-size: 200% 100%;
+		background-repeat: no-repeat;
+		animation: button-background 3s infinite;
+		animation-delay: 2s;
+		background-position: 200% 0;
 	}
 }
 
 @keyframes scroll-reveal {
 	to {
 		background-size: 100% 100%;
+	}
+}
+
+@keyframes button-background {
+	0% {
+		background-position: 200% 0;
+	}
+	30% {
+		background-position: -200% 0;
+	}
+	100% {
+		background-position: -200% 0;
 	}
 }
