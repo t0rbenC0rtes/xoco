@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Home from "./components/Home"; // move your current content here
-import PralinesMenu from "./components/PralinesMenu"; // create this new file
+import Home from "./components/Home";
+import PralinesMenu from "./components/PralinesMenu";
+import Carousel from "./components/Carousel";
 
 const App = () => {
 	const [language, setLanguage] = useState("en");
@@ -29,13 +30,23 @@ const App = () => {
 				<Route
 					path="/pralines"
 					element={
-						<PralinesMenu
+						<Carousel
 							language={language}
 							setLanguage={setLanguage}
 							translations={translations}
 						/>
 					}
 				/>
+				{/* <Route
+					path="/carousel"
+					element={
+						<Carousel
+							language={language}
+							setLanguage={setLanguage}
+							translations={translations}
+						/>
+					}
+				/> */}
 			</Routes>
 		</Router>
 	);

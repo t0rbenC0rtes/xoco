@@ -14,7 +14,7 @@ const Excellent3 = ({ translations }) => {
 					viewport={{ once: false }}
 				>
 					<h1>{translations["excellent"]?.title}</h1>
-					<Link to="/pralines" className="pralines-menu-btn">
+					<Link to="/carousel" className="pralines-menu-btn">
 						<button>{translations["nav"]?.pralines}<FaArrowRight /></button>
 					</Link>
 					<p>{translations["excellent"]?.text}</p>
