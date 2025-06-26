@@ -26,7 +26,7 @@
 }
 
 .card {
-	backdrop-filter: blur(.5px);
+	backdrop-filter: blur(0.5px);
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
 	user-select: none;
@@ -59,7 +59,7 @@
 .card img {
 	width: 100%;
 	border-radius: 8px;
-	box-shadow: 0px 0px 16px #cecece;	
+	box-shadow: 0px 0px 16px #cecece;
 }
 
 .card .praline-name {
@@ -88,6 +88,12 @@
 	z-index: 1;
 	filter: grayscale(1);
 	box-shadow: none;
+}
+
+.card:not(.center) {
+	.praline-name {
+		font-size: 0.35rem;
+	}
 }
 
 .card:not(.center):not(.left):not(.right) {
