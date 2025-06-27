@@ -6,11 +6,16 @@ import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import { PiPrinterDuotone } from "react-icons/pi";
 import { GiHealthNormal } from "react-icons/gi";
+import Print from "./Print";
 
 const Carousel = ({ translations, language, setLanguage }) => {
 	const [pralines, setPralines] = useState([]);
 	const [selectedPraline, setSelectedPraline] = useState(null);
 	const [currentIndex, setCurrentIndex] = useState(0);
+
+	const handlePrint = () => {
+		window.print();
+	};
 
 	// Fetch data from Supabase
 	useEffect(() => {
@@ -153,11 +158,12 @@ const Carousel = ({ translations, language, setLanguage }) => {
 					<GiHealthNormal />
 					{translations["infoButtons"]?.allergensBtn}
 				</button>
-				<button className="info-btn">
+				<button className="info-btn" onClick={handlePrint}>
 					<PiPrinterDuotone />
 					{translations["infoButtons"]?.print}
 				</button>
 			</div>
+			<Print pralines={pralines} language={language} />
 		</div>
 	);
 };
