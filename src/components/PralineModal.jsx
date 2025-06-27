@@ -11,16 +11,23 @@ const PralineModal = ({ praline, language, translations, onClose }) => {
 					&times;
 				</button>
 				<h2>{praline[`name_${language}`]}</h2>
-				<img src={praline.image} alt={praline[`name_${language}`]} />
-				<p>{praline[`description_${language}`]}</p>
-				<p className="warning">
-					<MdLiquor style={{ marginRight: "0.25rem" }} />
-					{praline.contains_alcohol === true
-						? translations?.labels?.alcohol_yes ||
-						  "Contains alcohol"
-						: translations?.labels?.alcohol_no ||
-						  "Does not contain alcohol"}
-				</p>
+				<div className="modal-tablet">
+					<img
+						src={praline.image}
+						alt={praline[`name_${language}`]}
+					/>
+					<div className="modal-text">
+						<p>{praline[`description_${language}`]}</p>
+						<p className="warning">
+							<MdLiquor style={{ marginRight: "0.25rem" }} />
+							{praline.contains_alcohol === true
+								? translations?.labels?.alcohol_yes ||
+								  "Contains alcohol"
+								: translations?.labels?.alcohol_no ||
+								  "Does not contain alcohol"}
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
