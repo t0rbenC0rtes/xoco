@@ -110,7 +110,7 @@ const Carousel = ({ translations, language, setLanguage }) => {
 
 	return (
 		<div className="carousel-container">
-			<div>
+			<div className="carousel-navbar">
 				<Link to="/" className="back-btn">
 					<button>
 						<FaArrowLeft />
