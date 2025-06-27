@@ -79,7 +79,9 @@
 		"mapOn": "Enable StreetView",
 		"mapOff": "Disable StreetView"
 	},
-	"instructions": {
-		"swiper": "Swipe to discover our pralines, click to open details. Use both sliders to compare pralines."
+	"infoButtons": {
+		"allergensBtn": "Allergens",
+		"allergens": "These pralines may contain traces of nuts, milk, soy, and gluten. Produced in a facility that also handles eggs and peanuts.",
+		"print": "Print the menu"
 	}
 }

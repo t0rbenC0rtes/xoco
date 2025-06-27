@@ -79,7 +79,9 @@
 		"mapOn": "Activer StreetView",
 		"mapOff": "Désactiver StreetView"
 	},
-	"instructions": {
-		"swiper": "Swipez pour découvrir nos pralines, cliquez pour afficher les détails. Utilisez les deux sliders pour comparer les pralines."
+	"infoButtons": {
+		"allergensBtn": "allergènes",
+		"allergens": "Ces pralines peuvent contenir des traces de fruits à coque, de lait, de soja et de gluten. Fabriquées dans un atelier utilisant également des œufs et des arachides.",
+		"print": "Imprimer le menu"
 	}
 }

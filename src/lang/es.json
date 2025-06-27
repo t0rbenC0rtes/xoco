@@ -79,7 +79,9 @@
 		"mapOn": "Habilitar StreetView",
 		"mapOff": "Deshabilitar StreetView"
 	},
-	"instructions": {
-		"swiper": "Desliza para descubrir nuestros pralinés y haz clic para ver los detalles. Usa ambos controles deslizantes para compararlos."
+	"infoButtons": {
+		"allergensBtn": "Alérgenos",
+		"allergens": "Estas pralinas pueden contener trazas de frutos secos, leche, soja y gluten. Elaboradas en un taller que también utiliza huevos y cacahuetes.",
+		"print": "Imprimir el menu"
 	}
 }

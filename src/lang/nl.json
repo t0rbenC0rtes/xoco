@@ -79,7 +79,9 @@
 		"mapOn": "StreetView gebruiken",
 		"mapOff": "StreetView uitschakelen"
 	},
-	"instructions": {
-		"swiper": "Swipe om onze pralines te ontdekken, klik om de details te bekijken. Gebruik beide schuifbalken om pralines te vergelijken."
+	"infoButtons": {
+		"allergensBtn": "Allergenen",
+		"allergens": "Deze pralines kunnen sporen bevatten van noten, melk, soja en gluten. Gemaakt in een atelier waar ook eieren en pinda’s worden verwerkt.",
+		"print": "Menu afdrukken"
 	}
 }

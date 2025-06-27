@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 :root {
 	--wd: 130;
 	--gap: 20px;
@@ -100,4 +102,27 @@
 	transform: scale(1) rotateY(0deg);
 	z-index: 0;
 	filter: grayscale(1);
+}
+
+.info-btns {
+	display: flex;
+	justify-self: center;
+	position: absolute;
+	bottom: 20px;
+	gap: 1rem;
+	.info-btn {
+		background-color: v.$white;
+		color: v.$brown;
+		font-size: 0.75rem;
+		font-weight: 700;
+		letter-spacing: 2px;
+		font-family: "Inter", sans-serif;
+		margin: 0;
+		padding: 0.625rem;
+		text-transform: uppercase;
+		border-radius: 12px;
+		display:flex;
+		align-items: center;
+		gap:.3rem;
+	}
 }

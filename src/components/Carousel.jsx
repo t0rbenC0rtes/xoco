@@ -4,6 +4,8 @@ import Navbar from "./Navbar";
 import PralineModal from "./PralineModal";
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
+import { PiPrinterDuotone } from "react-icons/pi";
+import { GiHealthNormal } from "react-icons/gi";
 
 const Carousel = ({ translations, language, setLanguage }) => {
 	const [pralines, setPralines] = useState([]);
@@ -146,6 +148,16 @@ const Carousel = ({ translations, language, setLanguage }) => {
 					translations={translations}
 				/>
 			)}
+			<div className="info-btns">
+				<button className="info-btn">
+					<GiHealthNormal />
+					{translations["infoButtons"]?.allergensBtn}
+				</button>
+				<button className="info-btn">
+					<PiPrinterDuotone />
+					{translations["infoButtons"]?.print}
+				</button>
+			</div>
 		</div>
 	);
 };
