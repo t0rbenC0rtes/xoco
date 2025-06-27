@@ -18,7 +18,7 @@ import Map from "./Map";
 const Home = ({ language, setLanguage, translations }) => {
 	return (
 		<div className="container">
-			<Navbar setLanguage={setLanguage} />
+			<Navbar language={language} setLanguage={setLanguage} />
 			<Header translations={translations} />
 			<div
 				style={{

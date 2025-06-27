@@ -16,8 +16,10 @@ const PralineModal = ({ praline, language, translations, onClose }) => {
 				<p className="warning">
 					<MdLiquor style={{ marginRight: "0.25rem" }} />
 					{praline.contains_alcohol === true
-						? translations?.labels?.alcohol_yes || "Contains alcohol"
-						: translations?.labels?.alcohol_no || "Does not contain alcohol"}
+						? translations?.labels?.alcohol_yes ||
+						  "Contains alcohol"
+						: translations?.labels?.alcohol_no ||
+						  "Does not contain alcohol"}
 				</p>
 			</div>
 		</div>

@@ -102,14 +102,14 @@ const Carousel = ({ translations, language, setLanguage }) => {
 	}, [currentIndex, pralines]);
 
 	return (
-		<div>
+		<div className="carousel-container">
 			<div>
 				<Link to="/" className="back-btn">
 					<button>
 						<FaArrowLeft />
 					</button>
 				</Link>
-				<Navbar setLanguage={setLanguage} />
+				<Navbar language={language} setLanguage={setLanguage} />
 			</div>
 			<div className="carousel">
 				<ul className="gallery">

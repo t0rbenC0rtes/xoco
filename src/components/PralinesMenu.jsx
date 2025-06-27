@@ -40,7 +40,8 @@ const PralinesMenu = ({ translations, language, setLanguage }) => {
 
 	return (
 		<>
-			<Navbar setLanguage={setLanguage} />
+			<Navbar language={language} setLanguage={setLanguage} />
+
 			<div className="pralines-container">
 				<Link to="/" className="pralines-menu-btn">
 					<button>

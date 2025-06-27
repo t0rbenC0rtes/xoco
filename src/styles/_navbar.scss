@@ -1,16 +1,20 @@
 @use "variables" as v;
 
-.navbar {    
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    button {
-        border: none;
-        border-radius: 50%;
-        padding: 5px;
-        background-color: v.$true-white;
-        &:hover {
-            cursor: pointer;
-        }
-    }
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	gap: 1rem;
+
+	.lang-btn {
+		border: none;
+		border-radius: 50%;
+		padding: 5px;
+		background-color: v.$true-white;
+		cursor: pointer;
+
+		&.active {
+			background-color: v.$red;
+			color: white;
+		}
+	}
 }

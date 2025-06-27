@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const Navbar = ({ setLanguage }) => {
+const Navbar = ({ language, setLanguage }) => {
 	const [showNavbar, setShowNavbar] = useState(true);
 
 	useEffect(() => {
@@ -9,13 +9,7 @@ const Navbar = ({ setLanguage }) => {
 
 		const handleScroll = () => {
 			const currentScrollY = window.scrollY;
-
-			if (currentScrollY > lastScrollY) {
-				setShowNavbar(false);
-			} else {
-				setShowNavbar(true);
-			}
-
+			setShowNavbar(currentScrollY < lastScrollY);
 			lastScrollY = currentScrollY;
 		};
 
@@ -36,10 +30,18 @@ const Navbar = ({ setLanguage }) => {
 				zIndex: 1000,
 			}}
 		>
-			<button onClick={() => setLanguage("nl")}>NL</button>
-			<button onClick={() => setLanguage("fr")}>FR</button>
-			<button onClick={() => setLanguage("en")}>EN</button>
-			<button onClick={() => setLanguage("es")}>ES</button>
+			{["nl", "fr", "en", "es"].map((lang) => (
+				<button
+					key={lang}
+					className={`lang-btn ${language === lang ? "active" : ""}`}
+					onClick={() => {
+						setLanguage(lang);
+						console.log("Current language:", language);
+					}}
+				>
+					{lang.toUpperCase()}
+				</button>
+			))}
 		</motion.div>
 	);
 };
