@@ -87,12 +87,13 @@
 }
 
 .card .praline-name {
-	margin-bottom: -1.5rem;
+	margin-bottom: -1rem;
 	font-family: "Faculty Glyphic", sans-serif;
 	font-size: 0.5rem;
 	font-weight: 400;
 	text-align: center;
-	white-space: nowrap;
+	white-space: wrap;
+	line-height: normal;
 }
 
 /* Focused image styling */
