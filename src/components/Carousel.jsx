@@ -20,7 +20,11 @@ const Carousel = ({ translations, language, setLanguage }) => {
 	// Fetch data from Supabase
 	useEffect(() => {
 		const fetchPralines = async () => {
-			const { data, error } = await supabase.from("pralines").select("*");
+			const { data, error } = await supabase
+				.from("pralines")
+				.select("*")
+				.order("Order", { ascending: true });
+
 			if (error) {
 				console.error("Error fetching pralines:", error.message);
 			} else {
