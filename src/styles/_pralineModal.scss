@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 .modal-overlay {
 	position: fixed;
 	top: 0;
@@ -72,10 +74,24 @@
 	border: none;
 	background: none;
 	cursor: pointer;
-	color: #333;
+	color: v.$brown;
 }
 .swiper-slide {
-	display:flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: v.$brown;
+}
+.swiper-pagination-bullet {
+	background: v.$brown;
+}
+
+.swiper-slide {
+	img {
+		width: 12rem;
+	}
 }

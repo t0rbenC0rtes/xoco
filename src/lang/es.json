@@ -82,6 +82,7 @@
 	"infoButtons": {
 		"allergensBtn": "Alérgenos",
 		"allergens": "Estas pralinas pueden contener trazas de frutos secos, leche, soja y gluten. Elaboradas en un taller que también utiliza huevos y cacahuetes.",
-		"print": "Imprimir el menu"
+		"print": "Imprimir el menu",
+		"ai": "Las imágenes del menú deslizante están generadas por IA para una mejor legibilidad. Haz clic en un bombón para ver fotos reales y detalles."
 	}
 }

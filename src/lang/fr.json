@@ -82,6 +82,7 @@
 	"infoButtons": {
 		"allergensBtn": "allergènes",
 		"allergens": "Ces pralines peuvent contenir des traces de fruits à coque, de lait, de soja et de gluten. Fabriquées dans un atelier utilisant également des œufs et des arachides.",
-		"print": "Imprimer le menu"
+		"print": "Imprimer le menu",
+		"ai": "Les images du menu déroulant sont générées par IA pour une meilleure lisibilité. Cliquez sur une praline pour voir des photos réelles et les détails."
 	}
 }

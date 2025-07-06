@@ -82,6 +82,7 @@
 	"infoButtons": {
 		"allergensBtn": "Allergenen",
 		"allergens": "Deze pralines kunnen sporen bevatten van noten, melk, soja en gluten. Gemaakt in een atelier waar ook eieren en pinda’s worden verwerkt.",
-		"print": "Menu afdrukken"
+		"print": "Menu afdrukken",
+		"ai": "Afbeeldingen in het schuifmenu zijn door AI gegenereerd voor een betere leesbaarheid. Klik op een praline om echte foto’s en details te bekijken."
 	}
 }
