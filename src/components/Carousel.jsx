@@ -157,15 +157,18 @@ const Carousel = ({ translations, language, setLanguage }) => {
 					translations={translations}
 				/>
 			)}
-			<div className="info-btns">
-				<button className="info-btn">
-					<GiHealthNormal />
-					{translations["infoButtons"]?.allergensBtn}
-				</button>
-				<button className="info-btn" onClick={handlePrint}>
-					<PiPrinterDuotone />
-					{translations["infoButtons"]?.print}
-				</button>
+			<div className="info">
+				<p className="ai-info">{translations["infoButtons"]?.ai}</p>
+				<div className="info-btns">
+					<button className="info-btn">
+						<GiHealthNormal />
+						{translations["infoButtons"]?.allergensBtn}
+					</button>
+					<button className="info-btn" onClick={handlePrint}>
+						<PiPrinterDuotone />
+						{translations["infoButtons"]?.print}
+					</button>
+				</div>
 			</div>
 			<Print pralines={pralines} language={language} />
 		</div>
