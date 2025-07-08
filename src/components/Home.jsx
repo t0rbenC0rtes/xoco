@@ -27,7 +27,17 @@ const Home = ({ language, setLanguage, translations }) => {
 					height: "1px",
 				}}
 			></div>
-			<Map translations={translations} />
+			<video
+				src="/Banner.mp4"
+				style={{
+					width: "100%",
+					height: "450px",
+					objectFit: "cover",
+				}}
+				autoPlay
+				loop
+				muted
+			></video>
 			<Bio1 translations={translations} />
 			<div
 				style={{
@@ -108,6 +118,7 @@ const Home = ({ language, setLanguage, translations }) => {
 					height: "1px",
 				}}
 			></div>
+			<Map translations={translations} />
 			<Footer translations={translations} />
 			<Socials />
 		</div>
