@@ -81,7 +81,8 @@
 	},
 	"infoButtons": {
 		"allergensBtn": "Allergenen",
-		"allergens": "Deze pralines kunnen sporen bevatten van noten, melk, soja en gluten. Gemaakt in een atelier waar ook eieren en pinda’s worden verwerkt.",
+		"allergensTitle": "Allergenen Informatie",
+		"allergensContent": "Onze pralines worden met de hand vervaardigd in een atelier waar noten (amandelen, hazelnoten, walnoten, pistachenoten), glutenbevattende granen, melk, soja en eieren regelmatig worden verwerkt. Hoewel we alle nodige voorzorgsmaatregelen nemen om kruisbesmetting te voorkomen, kunnen we de volledige afwezigheid van allergenen in onze producten niet garanderen. Daarnaast kunnen sommige pralines sporen van pinda’s, sesamzaad en sulfieten bevatten. Mensen met ernstige allergieën dienen uiterst voorzichtig te zijn en hun arts te raadplegen voordat ze onze producten consumeren. Wij streven naar transparantie en kunnen gedetailleerde ingrediëntenlijsten verstrekken op aanvraag. Voor verdere informatie over allergenen of specifieke dieetwensen kunt u altijd contact met ons opnemen. Ons team helpt u graag om weloverwogen keuzes te maken en veilig van onze pralines te genieten.",
 		"print": "Menu afdrukken",
 		"ai": "Afbeeldingen in het schuifmenu zijn door AI gegenereerd voor een betere leesbaarheid. Klik op een praline om echte foto’s en details te bekijken."
 	}

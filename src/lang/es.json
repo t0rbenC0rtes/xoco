@@ -81,7 +81,8 @@
 	},
 	"infoButtons": {
 		"allergensBtn": "Alérgenos",
-		"allergens": "Estas pralinas pueden contener trazas de frutos secos, leche, soja y gluten. Elaboradas en un taller que también utiliza huevos y cacahuetes.",
+		"allergensTitle": "Información sobre alérgenos",
+		"allergensContent": "Nuestras pralinas se elaboran artesanalmente en un obrador donde se utilizan habitualmente frutos secos (almendras, avellanas, nueces, pistachos), cereales con gluten, leche, soja y huevos. Aunque tomamos todas las precauciones necesarias para evitar la contaminación cruzada, no podemos garantizar la ausencia total de alérgenos en nuestros productos. Algunas pralinas también pueden contener trazas de cacahuetes, semillas de sésamo y sulfitos. Las personas con alergias severas deben tener especial cuidado y consultar a su médico antes de consumir nuestros productos. Nos comprometemos a la transparencia y podemos proporcionar listas detalladas de ingredientes si se solicitan. Para cualquier información adicional sobre alérgenos o requisitos dietéticos específicos, no dude en ponerse en contacto con nosotros. Estaremos encantados de ayudarle a elegir con confianza y disfrutar de nuestras pralinas de manera segura.",
 		"print": "Imprimir el menu",
 		"ai": "Las imágenes del menú deslizante están generadas por IA para una mejor legibilidad. Haz clic en un bombón para ver fotos reales y detalles."
 	}

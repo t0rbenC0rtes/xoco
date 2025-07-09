@@ -7,11 +7,13 @@ import { FaArrowLeft } from "react-icons/fa";
 import { PiPrinterDuotone } from "react-icons/pi";
 import { GiHealthNormal } from "react-icons/gi";
 import Print from "./Print";
+import Allergens from "./Allergens";
 
 const Carousel = ({ translations, language, setLanguage }) => {
 	const [pralines, setPralines] = useState([]);
 	const [selectedPraline, setSelectedPraline] = useState(null);
 	const [currentIndex, setCurrentIndex] = useState(0);
+	const [showAllergens, setShowAllergens] = useState(false);
 
 	const handlePrint = () => {
 		window.print();
@@ -160,10 +162,14 @@ const Carousel = ({ translations, language, setLanguage }) => {
 			<div className="info">
 				<p className="ai-info">{translations["infoButtons"]?.ai}</p>
 				<div className="info-btns">
-					<button className="info-btn">
+					<button
+						className="info-btn"
+						onClick={() => setShowAllergens(true)}
+					>
 						<GiHealthNormal />
 						{translations["infoButtons"]?.allergensBtn}
 					</button>
+
 					<button className="info-btn" onClick={handlePrint}>
 						<PiPrinterDuotone />
 						{translations["infoButtons"]?.print}
@@ -171,6 +177,13 @@ const Carousel = ({ translations, language, setLanguage }) => {
 				</div>
 			</div>
 			<Print pralines={pralines} language={language} />
+			{showAllergens && (
+				<Allergens
+					onClose={() => setShowAllergens(false)}
+					translations={translations}
+					language={language}
+				/>
+			)}
 		</div>
 	);
 };

@@ -81,7 +81,8 @@
 	},
 	"infoButtons": {
 		"allergensBtn": "Allergens",
-		"allergens": "These pralines may contain traces of nuts, milk, soy, and gluten. Produced in a facility that also handles eggs and peanuts.",
+		"allergensTitle": "Allergens Information",
+		"allergensContent": "Our pralines are handcrafted in a workshop where nuts (including almonds, hazelnuts, walnuts, and pistachios), gluten-containing cereals, milk, soy, and eggs are regularly used. Although every precaution is taken to avoid cross-contamination, we cannot guarantee the complete absence of allergens in our products. In addition, some pralines may contain traces of peanuts, sesame seeds, and sulfites. People with severe allergies should exercise extreme caution and consult their healthcare professional before consuming our products. We are committed to transparency and provide detailed ingredient lists on request. For any further information regarding allergens or specific dietary requirements, please do not hesitate to contact us directly. Our team will gladly assist you in making informed choices to enjoy our pralines safely and deliciously.",
 		"print": "Print the menu",
 		"ai": "Images from the sliding menu are AI generated for better readability. Click a praline to see real pictures and details."
 	}

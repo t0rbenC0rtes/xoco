@@ -81,7 +81,8 @@
 	},
 	"infoButtons": {
 		"allergensBtn": "allergènes",
-		"allergens": "Ces pralines peuvent contenir des traces de fruits à coque, de lait, de soja et de gluten. Fabriquées dans un atelier utilisant également des œufs et des arachides.",
+		"allergensTitle": "Informations sur les allergènes",
+		"allergensContent": "Nos pralines sont confectionnées à la main dans un atelier où sont régulièrement utilisés des fruits à coque (amandes, noisettes, noix, pistaches), des céréales contenant du gluten, du lait, du soja et des œufs. Bien que nous prenions toutes les précautions nécessaires pour éviter les contaminations croisées, nous ne pouvons pas garantir l’absence totale d’allergènes dans nos produits. Certaines pralines peuvent également contenir des traces d’arachides, de graines de sésame et de sulfites. Les personnes souffrant d’allergies sévères doivent faire preuve de la plus grande prudence et consulter leur professionnel de santé avant consommation. Nous nous engageons à la transparence et fournissons des listes détaillées des ingrédients sur demande. Pour toute information complémentaire concernant les allergènes ou des besoins alimentaires spécifiques, n’hésitez pas à nous contacter. Notre équipe se fera un plaisir de vous accompagner.",
 		"print": "Imprimer le menu",
 		"ai": "Les images du menu déroulant sont générées par IA pour une meilleure lisibilité. Cliquez sur une praline pour voir des photos réelles et les détails."
 	}
