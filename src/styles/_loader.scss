@@ -8,7 +8,7 @@
 	font-size: 1.5rem;
 	font-weight: bold;
 	opacity: 1;
-	transition: opacity 4.5s ease-in;
+	transition: opacity 5s ease-in;
 
 	&.fade-out {
 		opacity: 0;
@@ -27,7 +27,7 @@
 	stroke-linecap: round;
 	stroke-dasharray: 2500;
 	stroke-dashoffset: 2500;
-	animation: line-animation 4.5s ease forwards;
+	animation: line-animation 5s ease forwards;
 }
 
 @keyframes line-animation {

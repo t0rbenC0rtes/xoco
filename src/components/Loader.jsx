@@ -20,7 +20,7 @@ const Loader = () => {
 		)
 			return;
 
-		const tl = gsap.timeline({ repeat: 0, yoyo: false });
+		const tl = gsap.timeline({ repeat: 0, yoyo: false, delay: 1 });
 
 		tl.to(startPathRef.current, {
 			duration: 1,
