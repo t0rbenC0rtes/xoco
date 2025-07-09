@@ -1,9 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaArrowUp } from "react-icons/fa";
 
 const Opening = ({ translations }) => {
+	const scrollToSection = () => {
+		const section = document.getElementById("header");
+		if (section) {
+			const yOffset = -6000;
+			const y =
+				section.getBoundingClientRect().top +
+				window.pageYOffset +
+				yOffset;
+			window.scrollTo({ top: y, behavior: "smooth" });
+		}
+	};
+
 	return (
-		<div className="card-wrapper">
+		<div className="card-wrapper" id="map-section">
 			<div className="hours card-text">
 				<h3>{translations.opening?.title}</h3>
 				<p>{translations.opening?.text.monday}</p>
@@ -14,6 +27,9 @@ const Opening = ({ translations }) => {
 				<p>{translations.opening?.text.saturday}</p>
 				<p>{translations.opening?.text.sunday}</p>
 			</div>
+			<button onClick={scrollToSection} className="icon">
+				<FaArrowUp />
+			</button>
 			<div className="img-wrapper right">
 				<motion.div
 					initial={{ x: 50, opacity: 0 }}

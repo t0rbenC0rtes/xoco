@@ -7,8 +7,9 @@ const Map = ({ translations }) => {
 		setIsMapActive((prev) => !prev);
 	};
 	return (
-		<div className="map-wrapper" style={{ width: "100%", height: "500px" }}>
+		<div className="map-wrapper card-wrapper" style={{ width: "100%", height: "500px" }}>
 			<button
+			className="pralines-menu-btn"
 				onClick={toggleMap}
 				style={{
 					padding: "0.5rem 1rem",

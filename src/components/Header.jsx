@@ -2,11 +2,19 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
+import { SiOpenstreetmap } from "react-icons/si";
 import Logo from "./Logo";
 
 const Header = ({ translations }) => {
+	const scrollToSection = () => {
+		const section = document.getElementById("map-section");
+		if (section) {
+			section.scrollIntoView({ behavior: "smooth" });
+		}
+	};
+
 	return (
-		<div className="card-wrapper">
+		<div className="card-wrapper" id="header">
 			<motion.div
 				initial={{ y: 20, opacity: 0 }}
 				whileInView={{ y: 0, opacity: 1 }}
@@ -14,14 +22,18 @@ const Header = ({ translations }) => {
 				viewport={{ once: false }}
 				className="card-text"
 			>
-				{/* <h1>Xocolate</h1> */}
 				<Logo />
-				<Link to="/pralines" className="pralines-menu-btn">
-					<button>
-						{translations["nav"]?.pralines}
-						<FaArrowRight />
+				<div className="header-buttons">
+					<Link to="/pralines" className="pralines-menu-btn">
+						<button>
+							{translations["nav"]?.pralines}
+							<FaArrowRight />
+						</button>
+					</Link>
+					<button onClick={scrollToSection} className="icon">
+						<SiOpenstreetmap />
 					</button>
-				</Link>
+				</div>
 				<h3>{translations["header"]?.title}</h3>
 			</motion.div>
 		</div>
