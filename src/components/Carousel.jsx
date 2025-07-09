@@ -8,12 +8,15 @@ import { PiPrinterDuotone } from "react-icons/pi";
 import { GiHealthNormal } from "react-icons/gi";
 import Print from "./Print";
 import Allergens from "./Allergens";
+import Loader from "./Loader";
 
 const Carousel = ({ translations, language, setLanguage }) => {
 	const [pralines, setPralines] = useState([]);
 	const [selectedPraline, setSelectedPraline] = useState(null);
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [showAllergens, setShowAllergens] = useState(false);
+	const [isLoading, setIsLoading] = useState(true);
+	const [isFadingOut, setIsFadingOut] = useState(false);
 
 	const handlePrint = () => {
 		window.print();
@@ -29,12 +32,24 @@ const Carousel = ({ translations, language, setLanguage }) => {
 
 			if (error) {
 				console.error("Error fetching pralines:", error.message);
+				setIsFadingOut(true);
 			} else {
 				setPralines(data);
+				setIsFadingOut(true);
 			}
 		};
 		fetchPralines();
 	}, []);
+
+	useEffect(() => {
+		if (isFadingOut) {
+			const timer = setTimeout(() => {
+				setIsLoading(false);
+			}, 4500); // match your CSS transition duration
+
+			return () => clearTimeout(timer);
+		}
+	}, [isFadingOut]);
 
 	// Recenter the carousel
 	const updateCarousel = () => {
@@ -70,9 +85,11 @@ const Carousel = ({ translations, language, setLanguage }) => {
 
 	// Swipe handling for mobile only
 	useEffect(() => {
-		if (pralines.length === 0) return;
+		if (isLoading || pralines.length === 0) return;
 
 		const gallery = document.querySelector(".gallery");
+		if (!gallery) return; // extra safety
+
 		let startX = 0;
 		let isDragging = false;
 
@@ -107,12 +124,26 @@ const Carousel = ({ translations, language, setLanguage }) => {
 			gallery.removeEventListener("touchmove", handleTouchMove);
 			gallery.removeEventListener("touchend", handleTouchEnd);
 		};
-	}, [currentIndex, pralines.length]);
+	}, [isLoading, currentIndex, pralines.length]);
+
+	useEffect(() => {
+		if (!isLoading && pralines.length > 0) {
+			setCurrentIndex(0);
+			updateCarousel();
+		}
+	}, [isLoading, pralines]);
 
 	// Update carousel position and classnames when index changes
 	useEffect(() => {
 		updateCarousel();
 	}, [currentIndex, pralines]);
+	if (isLoading) {
+		return (
+			<div className={`loader ${isFadingOut ? "fade-out" : ""}`}>
+				<Loader />
+			</div>
+		);
+	}
 
 	return (
 		<div className="carousel-container">
